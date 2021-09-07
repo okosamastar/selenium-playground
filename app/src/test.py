@@ -5,7 +5,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 driver = webdriver.Remote(
     command_executor=os.environ["SELENIUM_URL"],
-    desired_capabilities=DesiredCapabilities.FIREFOX.copy())
+    desired_capabilities=DesiredCapabilities.CHROME.copy())
 
 driver.get("https://www.time-j.net/worldtime/country/jp")
 driver.implicitly_wait(5)
