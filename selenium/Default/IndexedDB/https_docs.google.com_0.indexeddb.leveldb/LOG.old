@@ -1,5 +1,0 @@
-2020/07/16-13:56:42.107 3b5eb Reusing MANIFEST /Users/kudos/Library/Application Support/Google/Chrome/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/16-13:56:44.264 40a77 Level-0 table #5: started
-2020/07/16-13:56:44.269 40a77 Level-0 table #5: 8270 bytes OK
-2020/07/16-13:56:44.281 40a77 Delete type=0 #3
-2020/07/16-13:56:44.282 40a77 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
