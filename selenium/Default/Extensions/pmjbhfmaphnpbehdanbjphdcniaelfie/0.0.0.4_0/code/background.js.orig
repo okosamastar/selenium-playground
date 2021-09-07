@@ -1,0 +1,325 @@
+
+dojo.provide("jazz.core.loader");
+
+dojo.declare("jazz.core.loader", null, {
+	"-chains-": { constructor: "manual" }
+});
+/******************************************************************************* 
+ * Licensed Materials - Property of IBM
+ * (c) Copyright IBM Corporation 2005, 2013. All Rights Reserved.
+ * 
+ * Note to U.S. Government Users Restricted Rights:
+ * Use, duplication or disclosure restricted by GSA ADP Schedule
+ * Contract with IBM Corp.
+ *******************************************************************************/
+dojo.provide("com.ibm.jdojo.lang.Runtime");
+
+
+(function() {
+
+var loader= jazz.core.loader;
+
+dojo.mixin(com.ibm.jdojo.lang.Runtime, {
+
+	typeForName : function(typeName) {
+		var ctor= dojo.getObject(typeName);
+		if (!ctor) {
+			loader.load_sync(typeName);
+			ctor= dojo.getObject(typeName);
+		}
+		if (ctor == null) {
+			throw new Error("Unknown type");
+		}
+
+		return ctor;
+	},
+
+	newInstance : function(type) {		
+		// arguments to pass to the ctor: the arguments passed to newInstance, except for the first argument
+		var ctorArgs= dojo.filter(arguments, function(val, idx) { return idx > 0; });
+		return this.newInstanceWithArrayArgs(type, ctorArgs);
+	},
+
+	newInstanceWithArrayArgs : function(type, ctorArgs) {
+		var ctor= null;
+		if (dojo.isString(type)) {
+			ctor= this.typeForName(type);
+		} else if (dojo.isFunction(type)) {
+			ctor= type;
+		} else {
+			throw new Error("type argument is expected to be a type name or constructor");
+		}
+
+		if (ctor == null) {
+			throw new Error("Unknown type");
+		}
+		
+		// create an indirection using a synthetic ctor:
+		// this allows calling the original ctor using variable arguments...
+		function varArgCtor(args) {
+			ctor.apply(this, args);
+		}
+		// ... while making use of the new constructor to set the correct prototype
+		varArgCtor.prototype= ctor.prototype;
+		return new varArgCtor(ctorArgs);
+	},
+
+	newInstanceByName: function(typeName, onLoad) {
+		if(!dojo.isString(typeName)){
+			throw new Error("type argument is expected to be a type name");
+		}
+		
+		var $this= this;
+		var $onLoad= onLoad;
+		var $arguments= dojo.filter(arguments, function(val, idx) { return idx != 1; });
+		
+		loader.load_async(typeName, function(result){
+			var obj= $this.newInstance.apply($this, $arguments);
+			$onLoad(obj);
+		});
+	},
+	
+	implementsInterface : function(subject, interfaceName) {
+		if (!subject)
+			return false;
+
+		var typeDef= subject.constructor.prototype;
+		while (typeDef) {
+			if (typeDef.$interfaces !== undefined && typeDef.$interfaces[interfaceName] === true)
+				return true;
+
+			typeDef= typeDef.constructor.superclass;
+		}
+		return false;
+	},
+
+	declareInterface : function(interfaceName, properties) {
+		var interfaceInstance= dojo.declare(interfaceName, null, {
+			constructor : function() {
+				throw new Error("Can't instantiate interface type");
+			},
+			$isInterface : true
+		});
+
+		if (properties != null) {
+			dojo.mixin(interfaceInstance, properties);
+		}
+		return interfaceInstance;
+	},
+
+	isInstance : function(subject, type) {
+		if (type.prototype.$isInterface) {
+			return this.implementsInterface(subject, type.prototype.declaredClass);
+		} else {
+			return subject instanceof type;
+		}
+	},
+	
+	getProperties : function(subject) {
+		var result= []; 
+		for (var name in subject)
+			result.push(name); 
+		return result;
+	},
+	
+	getValues: function(subject) {
+		var result= []; 
+		for (var name in subject)
+			result.push(subject[name]); 
+		return result;
+	}
+
+});
+
+})();
+/*******************************************************************************
+ * Licensed Materials - Property of IBM
+ * (c) Copyright IBM Corporation 2014. All Rights Reserved.
+ * 
+ * Note to U.S. Government Users Restricted Rights:  Use,
+ * duplication or disclosure restricted by GSA ADP Schedule
+ * Contract with IBM Corp.
+ *******************************************************************************/
+// NOTE: THIS IS A GENERATED FILE. DO NOT EDIT DIRECTLY!
+dojo.provide("com.ibm.team.chrome.common.Bootstrap");
+
+
+(function() {
+var jdojo= com.ibm.jdojo.lang.Runtime;
+
+var Bootstrap= dojo.declare("com.ibm.team.chrome.common.Bootstrap", null, {
+	"-chains-": { constructor: "manual" }
+});
+
+Bootstrap.content= function(entry) {
+	window.setTimeout(function() {
+		entry.start();
+	}, 0);
+	return undefined;
+};
+Bootstrap.background= function(entry) {
+	var props= jdojo.getProperties(entry);
+	var $subject= props;
+	var $length= $subject.length;
+	for (var $count= 0; $count < $length; $count++){
+		var prop= $subject[$count];
+		var p= entry[prop];
+		if (dojo.isFunction(p)) {
+			window[prop]= dojo.hitch(entry, p);
+		}
+	}
+	entry.start();
+	return undefined;
+};
+
+})();
+/*******************************************************************************
+ * Licensed Materials - Property of IBM
+ * (c) Copyright IBM Corporation 2014. All Rights Reserved.
+ * 
+ * Note to U.S. Government Users Restricted Rights:  Use,
+ * duplication or disclosure restricted by GSA ADP Schedule
+ * Contract with IBM Corp.
+ *******************************************************************************/
+// NOTE: THIS IS A GENERATED FILE. DO NOT EDIT DIRECTLY!
+dojo.provide("com.ibm.team.rtc.chrome.qls.CountryImages");
+
+(function() {
+var CountryImages= dojo.declare("com.ibm.team.rtc.chrome.qls.CountryImages", null, {
+	"-chains-": { constructor: "manual" }
+});
+
+CountryImages.CODES= ["AD", "AE", "AF", "AG", "AI", "AL", "AM", "AN", "AO", "AQ", "AR", "AS", "AT", "AU", "AW", "AX", "AZ", "BA", "BB", "BD", "BE", "BF", "BG", "BH", "BI", "BJ", "BL", "BM", "BN", "BO", "BR", "BS", "BT", "BW", "BY", "BZ", "CA", "CC", "CD", "CF", "CG", "CH", "CI", "CK", "CL", "CM", "CN", "CO", "CR", "CU", "CV", "CW", "CX", "CY", "CZ", "DE", "DJ", "DK", "DM", "DO", "DZ", "EC", "EE", "EG", "EH", "ER", "ES", "ET", "EU", "FI", "FJ", "FK", "FM", "FO", "FR", "GA", "GB", "GD", "GE", "GG", "GH", "GI", "GL", "GM", "GN", "GQ", "GR", "GS", "GT", "GU", "GW", "GY", "HK", "HN", "HR", "HT", "HU", "IC", "ID", "IE", "IL", "IM", "IN", "IQ", "IR", "IS", "IT", "JE", "JM", "JO", "JP", "KE", "KG", "KH", "KI", "KM", "KN", "KP", "KR", "KW", "KY", "KZ", "LA", "LB", "LC", "LI", "LK", "LR", "LS", "LT", "LU", "LV", "LY", "MA", "MC", "MD", "ME", "MF", "MG", "MH", "MK", "ML", "MM", "MN", "MO", "MP", "MQ", "MR", "MS", "MT", "MU", "MV", "MW", "MX", "MY", "MZ", "NA", "NC", "NE", "NF", "NG", "NI", "NL", "NO", "NP", "NR", "NU", "NZ", "OM", "PA", "PE", "PF", "PG", "PH", "PK", "PL", "PN", "PR", "PS", "PT", "PW", "PY", "QA", "RO", "RS", "RU", "RW", "SA", "SB", "SC", "SD", "SE", "SG", "SH", "SI", "SK", "SL", "SM", "SN", "SO", "SR", "SS", "ST", "SV", "SY", "SZ", "TC", "TD", "TF", "TG", "TH", "TJ", "TK", "TL", "TM", "TN", "TO", "TR", "TT", "TV", "TW", "TZ", "UA", "UG", "US", "UY", "UZ", "VA", "VC", "VE", "VG", "VI", "VN", "VU", "WF", "WS", "YE", "YT", "ZA", "ZM", "ZW"];
+CountryImages.getIconUrl= function(imageCode, requestedSize) {
+	var sizes= [16, 24, 32, 48, 64];
+	var iconSize= sizes[0];
+	var $subject= sizes;
+	var $length= $subject.length;
+	for (var $count= 0; $count < $length; $count++){
+		var i= $subject[$count];
+		if (requestedSize <= i) {
+			iconSize= i;
+			break;
+		}
+	}
+	return "icons/country/" + iconSize + "/" + imageCode + ".png";
+};
+
+})();
+/*******************************************************************************
+ * Licensed Materials - Property of IBM
+ * (c) Copyright IBM Corporation 2014. All Rights Reserved.
+ * 
+ * Note to U.S. Government Users Restricted Rights:  Use,
+ * duplication or disclosure restricted by GSA ADP Schedule
+ * Contract with IBM Corp.
+ *******************************************************************************/
+// NOTE: THIS IS A GENERATED FILE. DO NOT EDIT DIRECTLY!
+dojo.provide("com.ibm.team.rtc.chrome.qls.Locales");
+
+
+(function() {
+var CountryImages= com.ibm.team.rtc.chrome.qls.CountryImages;
+
+var Locales= dojo.declare("com.ibm.team.rtc.chrome.qls.Locales", null, {
+	"-chains-": { constructor: "manual" }
+});
+
+Locales.NULL= {uuid: "$0", code: "", displayName: "Disabled", iconCode: "_unknown"};
+Locales.BUILT_IN= [Locales.NULL, {uuid: "$001", code: "en", displayName: "English", iconCode: "GB"}, {uuid: "$002", code: "ar", displayName: "Arabic"}, {uuid: "$003", code: "bg", displayName: "Bulgarian"}, {uuid: "$004", code: "cs", displayName: "Czech", iconCode: "CZ"}, {uuid: "$005", code: "da", displayName: "Danish", iconCode: "DK"}, {uuid: "$006", code: "de", displayName: "German"}, {uuid: "$007", code: "el", displayName: "Greek", iconCode: "GR"}, {uuid: "$008", code: "es", displayName: "Spanish"}, {uuid: "$009", code: "fi", displayName: "Finnish"}, {uuid: "$010", code: "fr", displayName: "French"}, {uuid: "$011", code: "hr", displayName: "Croatian"}, {uuid: "$012", code: "hu", displayName: "Hungarian"}, {uuid: "$013", code: "it", displayName: "Italian"}, {uuid: "$014", code: "ja", displayName: "Japanese", iconCode: "JP"}, {uuid: "$015", code: "kk", displayName: "Kazakh", iconCode: "KZ"}, {uuid: "$016", code: "ko", displayName: "Korean", iconCode: "KR"}, {uuid: "$017", code: "no", displayName: "Norwegian"}, {uuid: "$018", code: "nl", displayName: "Dutch"}, {uuid: "$019", code: "pl", displayName: "Polish"}, {uuid: "$020", code: "pt", displayName: "Portugese (Portugal)"}, {uuid: "$021", code: "pt-br", displayName: "Portugese (Brazil)", iconCode: "BR"}, {uuid: "$022", code: "ro", displayName: "Romanian"}, {uuid: "$023", code: "ru", displayName: "Russian"}, {uuid: "$024", code: "sk", displayName: "Slovak"}, {uuid: "$025", code: "sl", displayName: "Slovenian"}, {uuid: "$026", code: "sv", displayName: "Swedish"}, {uuid: "$027", code: "th", displayName: "Thai"}, {uuid: "$028", code: "tr", displayName: "Turkish"}, {uuid: "$029", code: "uk", displayName: "Ukrainian", iconCode: "UA"}, {uuid: "$030", code: "zh", displayName: "Chinese Simplified (ZH)", iconCode: "CN"}, {uuid: "$031", code: "zh-tw", displayName: "Chinese Traditional", iconCode: "CN"}, {uuid: "$032", code: "zh-cn", displayName: "Chinese Simplified (ZH-CN)", iconCode: "CN"}];
+Locales.DEFAULT= [Locales.BUILT_IN[0].uuid, Locales.BUILT_IN[1].uuid, Locales.BUILT_IN[6].uuid, Locales.BUILT_IN[19].uuid, Locales.BUILT_IN[30].uuid];
+Locales.getIconUrl= function(locale, requestedSize) {
+	return CountryImages.getIconUrl((typeof (locale.iconCode) !== 'undefined') ? locale.iconCode : locale.code.toUpperCase(), requestedSize);
+};
+
+})();
+/*******************************************************************************
+ * Licensed Materials - Property of IBM
+ * (c) Copyright IBM Corporation 2014. All Rights Reserved.
+ * 
+ * Note to U.S. Government Users Restricted Rights:  Use,
+ * duplication or disclosure restricted by GSA ADP Schedule
+ * Contract with IBM Corp.
+ *******************************************************************************/
+// NOTE: THIS IS A GENERATED FILE. DO NOT EDIT DIRECTLY!
+dojo.provide("com.ibm.team.rtc.chrome.qls.BackgroundPage");
+
+
+(function() {
+var team= com.ibm.team;
+var Bootstrap= team.chrome.common.Bootstrap;
+var Locales= team.rtc.chrome.qls.Locales;
+
+var BackgroundPage= dojo.declare("com.ibm.team.rtc.chrome.qls.BackgroundPage", null, {
+	"-chains-": { constructor: "manual" },
+
+	constructor: function() {
+	},
+
+	start: function() {
+		chrome.storage.local.get("enabled-locales", dojo.hitch(this, function(objects) {
+			var enabledLocales= objects["enabled-locales"];
+			if (enabledLocales == null) {
+				enabledLocales= {enabled: this._getDefaultSetting()};
+				chrome.storage.local.set({"enabled-locales": enabledLocales});
+			}
+		}));
+		chrome.webRequest.onBeforeSendHeaders.addListener(dojo.hitch(this, function(details) {
+			if (this._getLocale().uuid !== Locales.NULL.uuid) {
+				this._setHeader(details, "Accept-Language", this._getLocale().code);
+			}
+			return {requestHeaders: details.requestHeaders};
+		}), {urls: ["<all_urls>"]}, ["blocking", "requestHeaders"]);
+	},
+
+	_setHeader: function(details, name, value) {
+		var $subject= details.requestHeaders;
+		var $length= $subject.length;
+		for (var $count= 0; $count < $length; $count++){
+			var header= $subject[$count];
+			if (header.name === name) {
+				header.value= value;
+				return ;
+			}
+		}
+		details.requestHeaders.push({name: name, value: value});
+	},
+
+	getLocale: function(callback) {
+		callback(this._getLocale());
+	},
+
+	setLocale: function(locale) {
+		window.localStorage.setItem("selected-locale", JSON.stringify(locale));
+		chrome.browserAction.setIcon({path: Locales.getIconUrl(locale, 16)});
+		chrome.tabs.reload(null, null);
+	},
+
+	_getLocale: function() {
+		var locale= window.localStorage.getItem("selected-locale");
+		if (locale != null) {
+			return JSON.parse(locale);
+		}
+		return Locales.NULL;
+	},
+
+	_getDefaultSetting: function() {
+		var result= {};
+		var $subject2= Locales.DEFAULT;
+		var $length2= $subject2.length;
+		for (var $count2= 0; $count2 < $length2; $count2++){
+			var locale= $subject2[$count2];
+			result[locale]= true;
+		}
+		return result;
+	},
+
+	$interfaces: {
+		'com.ibm.team.chrome.common.IEntry': true,
+		'com.ibm.team.rtc.chrome.qls.IBackgroundPage': true
+	}
+});
+
+BackgroundPage._= Bootstrap.background(new BackgroundPage());
+
+})();

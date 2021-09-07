@@ -1,0 +1,1 @@
+var urlObj=new URLSearchParams(window.location.search),os=urlObj.get("os"),type=urlObj.get("type");"mac"===os?document.querySelector("#mac-content").style.display="block":"win"===os&&(document.querySelector("#win-content").style.display="block");

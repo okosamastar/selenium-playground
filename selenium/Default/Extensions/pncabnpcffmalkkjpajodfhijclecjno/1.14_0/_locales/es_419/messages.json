@@ -1,0 +1,119 @@
+{
+   "cancel_button": {
+      "message": "Cancelar"
+   },
+   "close_button": {
+      "message": "Cerrar"
+   },
+   "extension_description": {
+      "message": "La extensión de Revisión de contraseña te permite volver a proteger las cuentas que afectó el incumplimiento de datos."
+   },
+   "extension_detailed_description": {
+      "message": "Cada vez que accedas, si ingresas un nombre de usuario y contraseña que ya no son seguros debido a que están relacionados con una violación de la seguridad de los datos conocida por Google, recibirás una alerta. Restablece tu contraseña. Si usas el mismo nombre de usuario y contraseña para otras cuentas, restablece tu contraseña también en esas cuentas.\n\nLa Revisión de contraseña se diseñó para mantener la privacidad. Esta función nunca envía información que permita la identificación de tus cuentas, contraseñas o dispositivos. Sí enviamos información anónima sobre la cantidad de búsquedas que muestran una credencial no segura (ya sea por una alerta que motiva un cambio de contraseña) y el dominio involucrado para mejorar la cobertura del sitio. Puedes obtener más información sobre cómo funciona la Revisión de contraseña en https://support.google.com/accounts?p=password-checkup.\n\nAhora que se integró la Revisión de contraseña a Chrome, la extensión de Revisión de contraseñas dejará de estar disponible el 31 de agosto de 2020. Después de esta fecha, se inhabilitará la extensión y ya no se informará si un nombre de usuario o contraseña se filtró en un violación de la seguridad de los datos. Si los usuarios quieren seguir recibiendo advertencias, deberán acceder a Chrome. Los usuarios deben asegurarse de que esté actualizado Chrome y de que esté habilitada la configuración de seguridad \"Advertirme si quedan expuestas las contraseñas ante una violación de la seguridad de los datos\" (está activada de forma predeterminada, a menos que se haya cambiado antes).\n\nSi instalas esta extensión, aceptas las Condiciones del Servicio de Google y la Política de Privacidad que se indica en www.google.com/policies/."
+   },
+   "extension_name": {
+      "message": "Extensión de Revisión de contraseña"
+   },
+   "feedback_message": {
+      "message": "Enviar comentarios"
+   },
+   "feedback_notice": {
+      "message": "Visita la \u003Ca href=\"https://support.google.com/legal/answer/3110420\">página de ayuda legal\u003C/a> para solicitar cambios en el contenido por razones legales. Es posible que se envíe a Google cierta información sobre la cuenta y el sistema. Usaremos la información que nos proporciones para solucionar problemas técnicos y mejorar nuestros servicios, conforme a nuestra \u003Ca href=\"https://www.google.com/intl/en/policies/privacy/\">Política de Privacidad\u003C/a> y \u003Ca href=\"https://www.google.com/intl/en/policies/terms/\">Condiciones del Servicio\u003C/a>."
+   },
+   "feedback_thanks": {
+      "message": "Gracias por enviar tus comentarios. Ya puedes cerrar esta página."
+   },
+   "feedback_tooltip": {
+      "message": "Describe el problema o comparte tus ideas. En tus comentarios, no incluyas información que te identifique personalmente ni datos de credenciales."
+   },
+   "ignore_button": {
+      "message": "Ignorar para este sitio"
+   },
+   "learn_more": {
+      "message": "Más información"
+   },
+   "popup_advanced_settings_action": {
+      "message": "Configuración avanzada"
+   },
+   "popup_default_status_message": {
+      "message": "Ninguna de las contraseñas que ingresaste recientemente están relacionadas con un incumplimiento de datos."
+   },
+   "popup_ignore_button": {
+      "message": "Ignorar"
+   },
+   "popup_ignored_status_message": {
+      "message": "Ninguna de las contraseñas que ingresaste recientemente están relacionadas con un incumplimiento de datos. Esto no incluye las contraseñas no seguras para las que elegiste ignorar el restablecimiento."
+   },
+   "popup_learn_more": {
+      "message": "Más información"
+   },
+   "popup_lookup_count_message": {
+      "message": "Número de contraseñas analizadas la última semana:"
+   },
+   "popup_multiple_accounts_warning_status_message": {
+      "message": "La extensión de Revisión de contraseña detectó que las contraseñas de las siguientes \u003Cb>$1 cuentas\u003C/b> ya no son seguras debido a un incumplimiento de datos.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_number_unsafe_accounts": {
+      "message": "$1 cuentas no seguras",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_one_account_warning_status_message": {
+      "message": "La extensión de Revisión de contraseña detectó que la contraseña de la siguiente \u003Cb>cuenta\u003C/b> ya no es segura debido a un incumplimiento de datos."
+   },
+   "popup_opt_out_anonymous_reporting_text": {
+      "message": "¿Quieres dejar de enviar informes anónimos para esta instalación de la extensión?"
+   },
+   "popup_reset_extension_button": {
+      "message": "Borrar datos de extensiones"
+   },
+   "popup_reset_extension_text": {
+      "message": "Borra todos los datos de extensiones. Esta acción quitará toda la información almacenada sobre contraseñas no seguras y sitios ignorados previamente."
+   },
+   "popup_send_feedback": {
+      "message": "Enviar comentarios"
+   },
+   "popup_turndown_link": {
+      "message": "Obtén más información."
+   },
+   "popup_turndown_message": {
+      "message": "Ahora que se integró a Chrome la Revisión de contraseñas, el 31 de agosto de 2020 dejará de funcionar esta extensión."
+   },
+   "popup_warning_action": {
+      "message": "Cambia tus contraseñas ahora mismo."
+   },
+   "reset_text": {
+      "message": "Cambia tu contraseña ahora mismo."
+   },
+   "send_button": {
+      "message": "Enviar"
+   },
+   "turndown_notice": {
+      "message": "Ahora que se integró la Revisión de contraseña a Chrome, la extensión de Revisión de contraseñas dejará de estar disponible el 31 de agosto de 2020. Después de esta fecha, se inhabilitará la extensión y ya no se informará si un nombre de usuario o contraseña se filtró en un violación de la seguridad de los datos. Si los usuarios quieren seguir recibiendo advertencias, deberán acceder a Chrome. Los usuarios deben asegurarse de que esté actualizado Chrome y de que esté habilitada la configuración de seguridad \"Advertirme si quedan expuestas las contraseñas ante una violación de la seguridad de los datos\" (está activada de forma predeterminada, a menos que se haya cambiado antes)."
+   },
+   "turndown_subtitle": {
+      "message": "Anuncio de desactivación"
+   },
+   "turndown_uninstall_button": {
+      "message": "Desinstalar ahora"
+   },
+   "warning_banner_header": {
+      "message": "Cambia tu contraseña"
+   },
+   "warning_text": {
+      "message": "La extensión de Revisión de contraseña detectó que tu contraseña para \u003Cb>$1\u003C/b> ya no es segura debido a un incumplimiento de datos.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

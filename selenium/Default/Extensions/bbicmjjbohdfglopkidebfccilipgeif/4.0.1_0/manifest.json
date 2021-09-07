@@ -1,0 +1,43 @@
+{
+   "background": {
+      "scripts": [ "background/controller.js", "background/net.js", "background/stats.js", "background/nu.js", "background/xml.js", "background/ui.js", "background/util.js", "background/opts.js", "background/upgrade.js" ]
+   },
+   "commands": {
+      "_execute_page_action": {
+         "description": "__MSG_page_action_title__",
+         "suggested_key": {
+            "default": "Alt+Shift+V",
+            "mac": "Alt+Shift+V"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "validity.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en_GB",
+   "description": "__MSG_extn_description__",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnKcGmctMkRiCj4rGFCj3XEwnQgH66XF5/mxmNx8PAxmgtu7XcnWOy7/O3qlqxuTswWmlzplgjhJKZAs7BhBKQ+x5IeMq2/zqt3aba16wKx6wCUGVHJpPmJLO2X6K2cLd5tIyS70eRaX1JpwCmpbJhEvhc+G26jxakI5pV9B70gQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "53",
+   "name": "__MSG_extn_name__",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": {
+         "19": "icons/19.png",
+         "38": "icons/38.png"
+      },
+      "default_title": "__MSG_page_action_title__"
+   },
+   "permissions": [ "http://*/*", "https://*/*", "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.0.1"
+}

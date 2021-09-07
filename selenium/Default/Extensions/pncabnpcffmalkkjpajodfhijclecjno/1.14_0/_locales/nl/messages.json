@@ -1,0 +1,119 @@
+{
+   "cancel_button": {
+      "message": "Annuleren"
+   },
+   "close_button": {
+      "message": "Sluiten"
+   },
+   "extension_description": {
+      "message": "Met de extensie Wachtwoordcheck kun je accounts opnieuw beveiligen die zijn getroffen door gegevenslekken."
+   },
+   "extension_detailed_description": {
+      "message": "Als je bij het inloggen een gebruikersnaam en wachtwoord opgeeft die niet meer veilig zijn vanwege een gegevenslek waarvan Google op de hoogte is, ontvang je een melding. Reset je wachtwoord. Als je dezelfde gebruikersnaam en hetzelfde wachtwoord gebruikt voor andere accounts, reset je je wachtwoord daarvoor ook.\n\nPassword Checkup is ontworpen met het oog op privacy. Het rapporteert nooit identificerende informatie over je accounts, wachtwoorden of apparaat. We rapporteren wel anonieme informatie over het aantal zoekacties waarbij onveilige inloggegevens worden gevonden, of een melding tot een wachtwoordwijziging heeft geleid en het betreffende domein. Hiermee proberen we de sitedekking te verbeteren. Op https://support.google.com/accounts?p=password-checkup vind je meer informatie over hoe Password Checkup werkt.\n\nNu Password Checkup is geïntegreerd in Chrome, beëindigen we de extensie Password Checkup op 31 augustus 2020. De extensie Password Checkup wordt na deze datum uitgeschakeld en meldt dan niet meer of een gebruikersnaam of wachtwoord is blootgesteld aan een gegevenslek. Als gebruikers waarschuwingen willen blijven ontvangen, moeten ze inloggen bij Chrome. Gebruikers moeten ook zorgen dat Chrome up-to-date is en dat de Chrome-beveiligingsinstelling 'Waarschuwen als je wachtwoorden zijn gelekt bij een gegevenslek' is ingeschakeld (deze instelling is standaard ingeschakeld, tenzij je dat eerder hebt gewijzigd).\n\nAls je dit item installeert, ga je akkoord met de servicevoorwaarden en het privacybeleid van Google op www.google.com/policies/."
+   },
+   "extension_name": {
+      "message": "Extensie Wachtwoordcheck"
+   },
+   "feedback_message": {
+      "message": "Feedback sturen"
+   },
+   "feedback_notice": {
+      "message": "Ga naar de \u003Ca href=\"https://support.google.com/legal/answer/3110420\">juridische help-pagina\u003C/a> om contentwijzigingen om juridische redenen aan te vragen. Bepaalde account- en systeemgegevens worden mogelijk naar Google verzonden. We gebruiken de gegevens die je verstrekt om technische problemen op te lossen en onze services te verbeteren, in overeenstemming met ons \u003Ca href=\"https://www.google.com/intl/en/policies/privacy/\">privacybeleid\u003C/a> en onze \u003Ca href=\"https://www.google.com/intl/en/policies/terms/\">servicevoorwaarden\u003C/a>."
+   },
+   "feedback_thanks": {
+      "message": "Bedankt voor je feedback. Je kunt deze pagina nu sluiten."
+   },
+   "feedback_tooltip": {
+      "message": "Beschrijf je probleem of deel je ideeën. Neem geen persoonlijk identificeerbare informatie of inloggegevens op in deze feedback."
+   },
+   "ignore_button": {
+      "message": "Negeren voor deze site"
+   },
+   "learn_more": {
+      "message": "Meer informatie"
+   },
+   "popup_advanced_settings_action": {
+      "message": "Geavanceerde instellingen"
+   },
+   "popup_default_status_message": {
+      "message": "Geen van de wachtwoorden die je recent hebt opgegeven, is gedetecteerd bij een gegevenslek."
+   },
+   "popup_ignore_button": {
+      "message": "Negeren"
+   },
+   "popup_ignored_status_message": {
+      "message": "Geen van de wachtwoorden die je recent hebt opgegeven, is gedetecteerd bij een gegevenslek. Onveilige wachtwoorden die je niet hebt gereset wanneer dat werd aanbevolen, zijn hierbij niet inbegrepen."
+   },
+   "popup_learn_more": {
+      "message": "Meer informatie"
+   },
+   "popup_lookup_count_message": {
+      "message": "Aantal wachtwoorden dat in de afgelopen week is geanalyseerd:"
+   },
+   "popup_multiple_accounts_warning_status_message": {
+      "message": "De extensie Wachtwoordcheck heeft gedetecteerd dat de wachtwoorden voor de volgende \u003Cb>$1 accounts\u003C/b> niet meer veilig zijn vanwege een gegevenslek.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_number_unsafe_accounts": {
+      "message": "$1 onveilige accounts",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_one_account_warning_status_message": {
+      "message": "De extensie Wachtwoordcheck heeft gedetecteerd dat het wachtwoord voor het volgende \u003Cb>account\u003C/b> niet meer veilig is vanwege een gegevenslek."
+   },
+   "popup_opt_out_anonymous_reporting_text": {
+      "message": "Afmelden voor anonieme rapportage voor deze installatie van de extensie?"
+   },
+   "popup_reset_extension_button": {
+      "message": "Extensiegegevens wissen"
+   },
+   "popup_reset_extension_text": {
+      "message": "Wis alle extensiegegevens. Hiermee wordt alle opgeslagen informatie over onveilige wachtwoorden en eerder genegeerde sites verwijderd."
+   },
+   "popup_send_feedback": {
+      "message": "Feedback sturen"
+   },
+   "popup_turndown_link": {
+      "message": "Meer informatie"
+   },
+   "popup_turndown_message": {
+      "message": "Nu Wachtwoordcheck is geïntegreerd in Chrome, werkt deze extensie niet meer vanaf 31 augustus 2020."
+   },
+   "popup_warning_action": {
+      "message": "Je moet je wachtwoorden nu wijzigen."
+   },
+   "reset_text": {
+      "message": "Je moet je wachtwoord nu wijzigen."
+   },
+   "send_button": {
+      "message": "Verzenden"
+   },
+   "turndown_notice": {
+      "message": "Nu Password Checkup is geïntegreerd in Chrome, beëindigen we de extensie Password Checkup op 31 augustus 2020. De extensie Password Checkup wordt na deze datum uitgeschakeld en meldt dan niet meer of een gebruikersnaam of wachtwoord is blootgesteld aan een gegevenslek. Als gebruikers waarschuwingen willen blijven ontvangen, moeten ze inloggen bij Chrome. Gebruikers moeten ook zorgen dat Chrome up-to-date is en dat de Chrome-beveiligingsinstelling 'Waarschuwen als je wachtwoorden zijn gelekt bij een gegevenslek' is ingeschakeld (deze instelling is standaard ingeschakeld, tenzij je dat eerder hebt gewijzigd)."
+   },
+   "turndown_subtitle": {
+      "message": "Aankondiging van beëindiging"
+   },
+   "turndown_uninstall_button": {
+      "message": "Nu verwijderen"
+   },
+   "warning_banner_header": {
+      "message": "Je wachtwoord wijzigen"
+   },
+   "warning_text": {
+      "message": "De extensie Wachtwoordcontrole heeft gedetecteerd dat je wachtwoord voor \u003Cb>$1\u003C/b> niet meer veilig is vanwege een gegevenslek.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

@@ -1,0 +1,119 @@
+{
+   "cancel_button": {
+      "message": "Peruuta"
+   },
+   "close_button": {
+      "message": "Sulje"
+   },
+   "extension_description": {
+      "message": "Salasanojen tarkistus ‑laajennus auttaa suojaamaan uudelleen tilit, joihin kohdistui tietosuojaloukkaus."
+   },
+   "extension_detailed_description": {
+      "message": "Saat aina ilmoituksen, jos käytät kirjautuessasi käyttäjänimeä ja salasanaa, jotka ovat vaarantuneet Googlen tiedossa olevan tietosuojaloukkauksen takia. Pyydä uutta salasanaa. Jos käytät samaa salasanaa muilla tileillä, vaihda se myös niiden osalta.\n\nSalasanatarkistus rakennettiin tietosuoja etusijalla. Se ei koskaan anna eteenpäin tunnistettavia tietoja tileistäsi, salasanoistasi tai laitteestasi. Raportoimme nimettömiä tietoja seuraavista asioista: hakujen määrä turvattomien kirjautumistietojen ympärillä, johtaako ilmoitus salasanan vaihtamiseen ja verkkosivusto, joka osallistuu sivuston suojan parantamiseen. Voit lukea lisää siitä, miten salasanatarkistus toimii, osoitteesta https://support.google.com/accounts?p=password-checkup.\n\nNyt kun Salasanan tarkistus on integroitu Chromeen, Salasanan tarkistus ‑laajennus poistuu käytöstä 31.8.2020. Tämän jälkeen Salasanan tarkistus ‑laajennus ei enää toimi eikä näin ollen ilmoita, jos käyttäjänimi tai salasana on ollut osallisena tietosuojaloukkauksessa. Jos haluat jatkossakin nähdä varoituksia, kirjaudu sisään Chromeen. Käyttäjien on myös varmistettava, että Chrome on ajan tasalla ja Chromen suojausasetus, joka varoittaa tietosuojaluokkauksen yhteydessä vaarantuneista salasanoista, on käytössä (oletus, ellei muutettu aiemmin).\n\nAsentamalla tämän hyväksyt Googlen käyttöehdot ja tietosuojakäytännön (www.google.com/policies/)."
+   },
+   "extension_name": {
+      "message": "Salasanojen tarkistus ‑laajennus"
+   },
+   "feedback_message": {
+      "message": "Lähetä palautetta"
+   },
+   "feedback_notice": {
+      "message": "Pyydä sisältömuutoksia oikeudellisista syistä \u003Ca href=\"https://support.google.com/legal/answer/3110420\">lakiasioiden ohjesivulta\u003C/a>. Joitakin tili- ja järjestelmätietoja voidaan lähettää Googlelle. Käytämme lähettämiäsi tietoja ratkaistaksemme teknisiä ongelmia ja parantaaksemme palveluitamme \u003Ca href=\"https://www.google.com/intl/fi/policies/privacy/\">tietosuojakäytännön\u003C/a> ja \u003Ca href=\"https://www.google.com/intl/fi/policies/terms/\">käyttöehtojen\u003C/a> mukaisesti."
+   },
+   "feedback_thanks": {
+      "message": "Kiitos palautteestasi. Voit nyt sulkea tämän sivun."
+   },
+   "feedback_tooltip": {
+      "message": "Kerro ongelmasta tai ideastasi. Älä lisää tähän palautteeseen mitään henkilötietoja tai kirjautumistietoja."
+   },
+   "ignore_button": {
+      "message": "Ohita tällä sivustolla"
+   },
+   "learn_more": {
+      "message": "Lue lisää"
+   },
+   "popup_advanced_settings_action": {
+      "message": "Lisäasetukset"
+   },
+   "popup_default_status_message": {
+      "message": "Äsken käyttämiäsi salasanoja ei havaittu tietosuojaloukkauksen yhteydessä."
+   },
+   "popup_ignore_button": {
+      "message": "Ohita"
+   },
+   "popup_ignored_status_message": {
+      "message": "Äsken käyttämiäsi salasanoja ei havaittu tietosuojaloukkauksen yhteydessä. Tämä ei koske vaarantuneita salasanoja, jotka päätit olla vaihtamatta."
+   },
+   "popup_learn_more": {
+      "message": "Lue lisää"
+   },
+   "popup_lookup_count_message": {
+      "message": "Viime viikolla analysoitujen salasanojen määrä:"
+   },
+   "popup_multiple_accounts_warning_status_message": {
+      "message": "Salasanojen tarkistus ‑laajennus havaitsi, että seuraavien \u003Cb>$1 tilin\u003C/b> salasanat ovat vaarantuneet tietosuojaloukkauksessa.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_number_unsafe_accounts": {
+      "message": "$1 vaarantunutta tiliä",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_one_account_warning_status_message": {
+      "message": "Salasanojen tarkistus ‑laajennus havaitsi, että seuraavan \u003Cb>tilin\u003C/b> salasana on vaarantunut tietosuojaloukkauksessa."
+   },
+   "popup_opt_out_anonymous_reporting_text": {
+      "message": "Lopetetaanko nimettömien raporttien lähettäminen laajennuksen tästä asennuksesta?"
+   },
+   "popup_reset_extension_button": {
+      "message": "Tyhjennä laajennusdata"
+   },
+   "popup_reset_extension_text": {
+      "message": "Tyhjennä kaikki laajennusdata. Tämän seurauksena poistetaan kaikki vaarantuneisiin salasanoihin ja aiemmin ohitettuihin sivustoihin liittyvät tallennetut tiedot."
+   },
+   "popup_send_feedback": {
+      "message": "Lähetä palautetta"
+   },
+   "popup_turndown_link": {
+      "message": "Katso lisätietoja."
+   },
+   "popup_turndown_message": {
+      "message": "Nyt kun Salasanan tarkistus on integroitu Chromeen, kyseinen laajennus lakkautetaan 31.8.2020."
+   },
+   "popup_warning_action": {
+      "message": "Sinun kannattaa vaihtaa salasanat heti."
+   },
+   "reset_text": {
+      "message": "Sinun kannattaa vaihtaa salasana heti."
+   },
+   "send_button": {
+      "message": "Lähetä"
+   },
+   "turndown_notice": {
+      "message": "Nyt kun Salasanan tarkistus on integroitu Chromeen, Salasanan tarkistus ‑laajennus poistuu käytöstä 31.8.2020. Tämän jälkeen Salasanan tarkistus ‑laajennus ei enää toimi eikä näin ollen ilmoita, jos käyttäjänimi tai salasana on ollut osallisena tietosuojaloukkauksessa. Jos haluat jatkossakin nähdä varoituksia, kirjaudu sisään Chromeen. Käyttäjien on myös varmistettava, että Chrome on ajan tasalla ja Chromen suojausasetus, joka varoittaa tietosuojaluokkauksen yhteydessä vaarantuneista salasanoista, on käytössä (oletus, ellei muutettu aiemmin)."
+   },
+   "turndown_subtitle": {
+      "message": "Ilmoitus sulkemisesta"
+   },
+   "turndown_uninstall_button": {
+      "message": "Poista nyt"
+   },
+   "warning_banner_header": {
+      "message": "Vaihda salasana"
+   },
+   "warning_text": {
+      "message": "Salasanojen tarkistus ‑laajennus havaitsi, että salasanasi (\u003Cb>$1\u003C/b>) on vaarantunut tietosuojaloukkauksessa.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

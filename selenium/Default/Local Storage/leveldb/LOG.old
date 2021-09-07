@@ -1,0 +1,6 @@
+2021/08/30-13:16:57.647 5307 Reusing MANIFEST /Users/kudos/Library/Application Support/Google/Chrome/Default/Local Storage/leveldb/MANIFEST-066304
+2021/08/30-13:16:57.744 5307 Recovering log #79881
+2021/08/30-13:16:57.745 5307 Reusing old log /Users/kudos/Library/Application Support/Google/Chrome/Default/Local Storage/leveldb/079881.log 
+2021/08/30-14:07:13.416 6a0b Level-0 table #79885: started
+2021/08/30-14:07:13.460 6a0b Level-0 table #79885: 12103 bytes OK
+2021/08/30-14:07:13.521 6a0b Delete type=0 #79881

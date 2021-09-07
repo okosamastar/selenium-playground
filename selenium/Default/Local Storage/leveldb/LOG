@@ -1,0 +1,19 @@
+2021/09/04-13:39:48.776 2c03 Reusing MANIFEST /Users/kudos/Library/Application Support/Google/Chrome/Default/Local Storage/leveldb/MANIFEST-066304
+2021/09/04-13:39:48.800 2c03 Recovering log #79884
+2021/09/04-13:39:48.801 2c03 Reusing old log /Users/kudos/Library/Application Support/Google/Chrome/Default/Local Storage/leveldb/079884.log 
+2021/09/04-13:40:11.951 2c03 Level-0 table #79888: started
+2021/09/04-13:40:12.001 2c03 Level-0 table #79888: 171732 bytes OK
+2021/09/04-13:40:12.119 2c03 Delete type=0 #79884
+2021/09/04-13:40:12.121 2c03 Compacting 4@0 + 3@1 files
+2021/09/04-13:40:12.201 2c03 Generated table #79889@0: 11528 keys, 2312870 bytes
+2021/09/04-13:40:12.265 2c03 Generated table #79890@0: 4381 keys, 2105975 bytes
+2021/09/04-13:40:12.334 2c03 Generated table #79891@0: 1182 keys, 1790849 bytes
+2021/09/04-13:40:12.335 2c03 Compacted 4@0 + 3@1 files => 6209694 bytes
+2021/09/04-13:40:12.381 2c03 compacted to: files[ 0 3 4 0 0 0 0 ]
+2021/09/04-13:40:12.383 2c03 Delete type=2 #79885
+2021/09/04-13:40:12.384 2c03 Delete type=2 #79880
+2021/09/04-13:40:12.384 2c03 Delete type=2 #79882
+2021/09/04-13:40:12.384 2c03 Delete type=2 #79888
+2021/09/04-13:40:12.384 2c03 Delete type=2 #79877
+2021/09/04-13:40:12.384 2c03 Delete type=2 #79876
+2021/09/04-13:40:12.385 2c03 Delete type=2 #79875

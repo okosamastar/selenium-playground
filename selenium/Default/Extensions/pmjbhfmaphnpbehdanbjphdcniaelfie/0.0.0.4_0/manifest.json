@@ -1,0 +1,19 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "lib/dojo.js", "code/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/icon.png",
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "An Extension for chrome to easily change the language. This makes testing locale related problems easier",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAge4+rEOVAsU1R7JIe8HE/wiaU5SnyrGPWFkSOk5uRfXdxcfZdj9UnTnIpGdexs8iGD1G63+NMeL0R0sxeZEAb4FLdRKAcslf4DwbxZPrV+rb8j4GcEzwaz/VEBvblE8TyfJTymWO3ZjpR93PvEIwjkDLiAXUabfL0JrPGGTYXg+rcINJDnXc8+8FIYfrXlaY76HtCEXRplqIFxEB8lxcXUyPtoD2Ugg7tXbKGQCkWjxiCA3ZFQneEymWmXWhS9NOpH0cf1qnvqtLt4cHGAFB/vRP1hKIwNE63NNsbB2DYrOtaGs2bglNrsKHLCjjVoTt58cZQaUbBwR1vczjpdqtFQIDAQAB",
+   "manifest_version": 2,
+   "name": "Quick Language Switcher",
+   "options_page": "options.html",
+   "permissions": [ "\u003Call_urls>", "webRequest", "webRequestBlocking", "background", "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.4"
+}

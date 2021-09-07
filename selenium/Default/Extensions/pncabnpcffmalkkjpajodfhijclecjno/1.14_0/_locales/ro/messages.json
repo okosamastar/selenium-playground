@@ -1,0 +1,119 @@
+{
+   "cancel_button": {
+      "message": "Anulați"
+   },
+   "close_button": {
+      "message": "Închideți"
+   },
+   "extension_description": {
+      "message": "Extensia Verificarea parolei vă ajută să securizați din nou conturile afectate de încălcări ale securității datelor."
+   },
+   "extension_detailed_description": {
+      "message": "Oriunde v-ați conecta, dacă introduceți un nume de utilizator și o parolă care nu mai sunt sigure, deoarece au apărut într-o încălcare a securității datelor detectată de Google, veți primi o alertă. Resetați-vă parola. Dacă folosiți același nume de utilizator și aceeași parolă pentru orice alte conturi, resetați-vă parola și acolo.\n\nAm creat Verificarea parolei gândindu-ne la confidențialitate. Aceasta nu raportează niciodată informații de identificare despre conturile, parolele și dispozitivul dvs. Însă raportează informații anonime despre numărul căutărilor care indică date de conectare nesigure, alerte care duc la schimbarea parolei și domeniile implicate, pentru a îmbunătăți acoperirea site-ului. Puteți afla mai multe despre modul în care funcționează Verificarea parolei la https://support.google.com/accounts?p=password-checkup.\n\nAcum că Verificarea parolei este integrată în Chrome, extensia Verificarea parolei va fi retrasă pe 31 august 2020. După această dată, extensia Verificarea parolei va fi dezactivată și nu va mai raporta încălcări ale securității datelor legate de numele de utilizator sau de parole. Pentru a primi în continuare avertismente, utilizatorii trebuie să se conecteze la Chrome. În plus, trebuie să se asigure că au actualizat Chrome și că setarea de securitate „Anunță-mă dacă parolele sunt expuse unei încălcări a securității datelor” din Chrome este activată (setare prestabilită, dacă nu a fost modificată anterior).\n\nDacă instalați acest element, acceptați Termenii și condițiile și Politica de confidențialitate Google de la www.google.com/policies/."
+   },
+   "extension_name": {
+      "message": "Extensia Verificarea parolei"
+   },
+   "feedback_message": {
+      "message": "Trimiteți feedback"
+   },
+   "feedback_notice": {
+      "message": "Accesați \u003Ca href=\"https://support.google.com/legal/answer/3110420\">pagina Ajutor privind problemele juridice\u003C/a> pentru a solicita modificări de conținut din motive juridice. Unele informații despre cont și sistem pot fi trimise la Google. Vom folosi informațiile pe care ni le oferiți ca să remediem problemele tehnice și să ne îmbunătățim serviciile, conform \u003Ca href=\"https://www.google.com/intl/en/policies/privacy/\">Politicii de confidențialitate\u003C/a> și \u003Ca href=\"https://www.google.com/intl/en/policies/terms/\">Termenilor și condițiilor\u003C/a>."
+   },
+   "feedback_thanks": {
+      "message": "Vă mulțumim pentru feedback. Acum puteți închide această pagină."
+   },
+   "feedback_tooltip": {
+      "message": "Descrieți problema sau spuneți-ne ideile dvs. Nu includeți informații care vă identifică personal sau detalii privind datele de conectare în cadrul acestui feedback."
+   },
+   "ignore_button": {
+      "message": "Ignorați pentru acest site"
+   },
+   "learn_more": {
+      "message": "Aflați mai multe"
+   },
+   "popup_advanced_settings_action": {
+      "message": "Setări avansate"
+   },
+   "popup_default_status_message": {
+      "message": "Niciuna dintre parolele introduse recent nu au fost detectate într-o încălcare a securității datelor."
+   },
+   "popup_ignore_button": {
+      "message": "Ignorați"
+   },
+   "popup_ignored_status_message": {
+      "message": "Niciuna dintre parolele introduse recent nu au fost detectate într-o încălcare a securității datelor. Aici nu sunt incluse parolele nesigure pe care ați ales să nu le resetați."
+   },
+   "popup_learn_more": {
+      "message": "Aflați mai multe"
+   },
+   "popup_lookup_count_message": {
+      "message": "Numărul de parole analizate în ultima săptămână:"
+   },
+   "popup_multiple_accounts_warning_status_message": {
+      "message": "Extensia Verificarea parolei a detectat că parola dvs. pentru \u003Cb>$1 cont\u003C/b> nu mai este sigură, din cauza unei încălcări a securității datelor.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_number_unsafe_accounts": {
+      "message": "$1 conturi nesigure",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_one_account_warning_status_message": {
+      "message": "Verificarea parolei a detectat că parola dvs. pentru următorul \u003Cb>cont\u003C/b> nu mai este sigură, din cauza unei încălcări a securității datelor."
+   },
+   "popup_opt_out_anonymous_reporting_text": {
+      "message": "Renunțați la raportarea anonimă pentru această instalare a extensiei?"
+   },
+   "popup_reset_extension_button": {
+      "message": "Ștergeți datele despre extensii"
+   },
+   "popup_reset_extension_text": {
+      "message": "Ștergeți toate datele despre extensii. Astfel, veți șterge toate informațiile stocate despre parolele nesigure și despre site-urile ignorate anterior."
+   },
+   "popup_send_feedback": {
+      "message": "Trimiteți feedback"
+   },
+   "popup_turndown_link": {
+      "message": "Aflați mai multe."
+   },
+   "popup_turndown_message": {
+      "message": "Acum că Verificarea parolei este integrată în Chrome, această extensie va fi retrasă pe 31 august 2020."
+   },
+   "popup_warning_action": {
+      "message": "Ar trebui să vă schimbați parolele acum."
+   },
+   "reset_text": {
+      "message": "Ar trebui să vă schimbați parola acum."
+   },
+   "send_button": {
+      "message": "Trimiteți"
+   },
+   "turndown_notice": {
+      "message": "Acum că Verificarea parolei este integrată în Chrome, extensia Verificarea parolei va fi retrasă pe 31 august 2020. După această dată, extensia Verificarea parolei va fi dezactivată și nu va mai raporta încălcări ale securității datelor legate de numele de utilizator sau de parole. Pentru a primi în continuare avertismente, utilizatorii trebuie să se conecteze la Chrome. În plus, trebuie să se asigure că au actualizat Chrome și că setarea de securitate „Anunță-mă dacă parolele sunt expuse unei încălcări a securității datelor” din Chrome este activată (setare prestabilită, dacă nu a fost modificată anterior)."
+   },
+   "turndown_subtitle": {
+      "message": "Anunț privind retragerea"
+   },
+   "turndown_uninstall_button": {
+      "message": "Dezinstalați acum"
+   },
+   "warning_banner_header": {
+      "message": "Schimbați parola"
+   },
+   "warning_text": {
+      "message": "Verificarea parolei a detectat că parola dvs. pentru \u003Cb>$1\u003C/b> nu mai este sigură, din cauza unei încălcări a securității datelor.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

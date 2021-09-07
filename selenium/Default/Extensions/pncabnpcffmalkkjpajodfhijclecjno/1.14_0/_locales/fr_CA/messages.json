@@ -1,0 +1,119 @@
+{
+   "cancel_button": {
+      "message": "Annuler"
+   },
+   "close_button": {
+      "message": "Fermer"
+   },
+   "extension_description": {
+      "message": "L'extension Vérification de mot de passe vous aide à sécuriser de nouveau les comptes touchés par les violations de données."
+   },
+   "extension_detailed_description": {
+      "message": "Lorsque vous vous connectez, si vous entrez un nom d'utilisateur et un mot de passe qui ne sont plus sécurisés (car ils faisaient partie d'une violation de données dont Google est au courant), vous recevrez une alerte. Veuillez réinitialiser votre mot de passe. Si vous utilisez le même nom d'utilisateur et le même mot de passe pour d'autres comptes, veuillez réinitialiser votre mot de passe pour eux aussi.\n\nL'outil Vérification de mot de passe a été conçu pour augmenter la sécurité de vos données. Il ne partage jamais de renseignements personnels concernant vos comptes, vos mots de passe ni vos appareils. Nous signalons des données anonymes concernant le nombre de recherches associées à des données de connexion non sécuritaires ainsi que le domaine en question, que l'alerte mène à un changement de mot de passe ou non, afin d'améliorer la couverture de sites. Pour en apprendre davantage sur la façon dont fonctionne la vérification de mot de passe, consultez la page : https://support.google.com/accounts?p=password-checkup.\n\nMaintenant que l'outil Vérification de mot de passe est intégré dans Chrome, l'extension Vérification de mot de passe sera rendue obsolète à compter du 31 août 2020. Après cette date, l'extension Vérification de mot de passe sera désactivée et ne signalera plus si un nom d'utilisateur ou un mot de passe a figuré dans une violation de données. Pour continuer de recevoir des avertissements, les utilisateurs devraient plutôt se connecter à leur compte dans Chrome. Les utilisateurs doivent aussi s'assurer que Chrome est à jour et que le paramètre de sécurité « Vous envoyer un avertissement si des mots de passe sont exposés dans une violation de données » de Chrome est activé (valeur par défaut, à moins d'avoir été changé auparavant).\n\nEn installant cet élément, vous acceptez les conditions d'utilisation et la politique de confidentialité de Google, accessibles à l'adresse www.google.com/policies/."
+   },
+   "extension_name": {
+      "message": "Extension Vérification de mot de passe"
+   },
+   "feedback_message": {
+      "message": "Envoyer des commentaires"
+   },
+   "feedback_notice": {
+      "message": "Visitez la \u003Ca href=\"https://support.google.com/legal/answer/3110420\">page d'aide pour les demandes de nature juridique\u003C/a> afin de soumettre une demande de suppression de contenu pour des raisons juridiques. Certains renseignements relatifs à votre compte et à votre système peuvent être envoyés à Google. Nous utiliserons les renseignements que vous nous fournissez pour résoudre les problèmes techniques et améliorer nos services, conformément à notre \u003Ca href=\"https://www.google.com/intl/fr-CA/policies/privacy/\">politique de confidentialité\u003C/a> et à nos \u003Ca href=\"https://www.google.com/intl/fr-CA/policies/terms/\">conditions d'utilisation\u003C/a>."
+   },
+   "feedback_thanks": {
+      "message": "Merci pour vos commentaires. Vous pouvez maintenant fermer cette page."
+   },
+   "feedback_tooltip": {
+      "message": "Décrivez votre problème ou exprimez vos idées. Prenez soin de ne pas inclure de données permettant de vous identifier ni de données de connexion dans vos commentaires."
+   },
+   "ignore_button": {
+      "message": "Ignorer pour ce site"
+   },
+   "learn_more": {
+      "message": "En savoir plus"
+   },
+   "popup_advanced_settings_action": {
+      "message": "Paramètres avancés"
+   },
+   "popup_default_status_message": {
+      "message": "Aucun des mots de passe que vous avez entrés récemment n'a été détecté dans une violation de données."
+   },
+   "popup_ignore_button": {
+      "message": "Ignorer"
+   },
+   "popup_ignored_status_message": {
+      "message": "Aucun des mots de passe que vous avez entrés récemment n'a été détecté dans une violation de données. Cela ne comprend pas les mots de passe non sécuritaires que vous avez choisi de ne pas réinitialiser."
+   },
+   "popup_learn_more": {
+      "message": "En savoir plus"
+   },
+   "popup_lookup_count_message": {
+      "message": "Nombre de mots de passe analysés au cours de la dernière semaine :"
+   },
+   "popup_multiple_accounts_warning_status_message": {
+      "message": "L'extension Vérification de mot de passe a détecté que \u003Cb>le compte suivant ($1)\u003C/b> a un mot de passe qui n'est plus sécuritaire en raison d'une violation de données.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_number_unsafe_accounts": {
+      "message": "$1 comptes non sécuritaires",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_one_account_warning_status_message": {
+      "message": "L'extension Vérification de mot de passe a détecté que \u003Cb>le compte suivant\u003C/b> a un mot de passe qui n'est plus sécuritaire en raison d'une violation de données."
+   },
+   "popup_opt_out_anonymous_reporting_text": {
+      "message": "Désactiver le signalement anonyme pour cette installation de l'extension?"
+   },
+   "popup_reset_extension_button": {
+      "message": "Effacer les données des extensions"
+   },
+   "popup_reset_extension_text": {
+      "message": "Effacer toutes les données des extensions. Cette action supprimera toutes les données stockées à propos des mots de passe non sécuritaires et des sites précédemment ignorés."
+   },
+   "popup_send_feedback": {
+      "message": "Envoyer des commentaires"
+   },
+   "popup_turndown_link": {
+      "message": "Apprenez-en plus."
+   },
+   "popup_turndown_message": {
+      "message": "Maintenant que l'outil Vérification de mot de passe est intégré dans Chrome, cette extension cessera de fonctionner le 31 août 2020."
+   },
+   "popup_warning_action": {
+      "message": "Vous devriez changer vos mots de passe immédiatement."
+   },
+   "reset_text": {
+      "message": "Vous devriez changer votre mot de passe immédiatement."
+   },
+   "send_button": {
+      "message": "Envoyer"
+   },
+   "turndown_notice": {
+      "message": "Maintenant que l'outil Vérification de mot de passe est intégré dans Chrome, l'extension Vérification de mot de passe sera rendue obsolète à compter du 31 août 2020. Après cette date, l'extension Vérification de mot de passe sera désactivée et ne signalera plus si un nom d'utilisateur ou un mot de passe a figuré dans une violation de données. Pour continuer de recevoir des avertissements, les utilisateurs devraient plutôt se connecter à leur compte dans Chrome. Les utilisateurs doivent aussi s'assurer que Chrome est à jour et que le paramètre de sécurité « Vous envoyer un avertissement si des mots de passe sont exposés dans une violation de données » de Chrome est activé (valeur par défaut, à moins d'avoir été changé auparavant)."
+   },
+   "turndown_subtitle": {
+      "message": "Annonce de mise en obsolescence"
+   },
+   "turndown_uninstall_button": {
+      "message": "Désinstaller maintenant"
+   },
+   "warning_banner_header": {
+      "message": "Changer le mot de passe"
+   },
+   "warning_text": {
+      "message": "L'extension Vérification de mot de passe a détecté que votre mot de passe pour \u003Cb>$1\u003C/b> n'est plus sécuritaire en raison d'une violation de données.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

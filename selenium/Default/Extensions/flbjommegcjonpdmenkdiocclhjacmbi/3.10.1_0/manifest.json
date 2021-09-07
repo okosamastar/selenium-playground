@@ -1,0 +1,39 @@
+{
+   "applications": {
+      "gecko": {
+         "id": "headings@niquelheadings.net",
+         "strict_min_version": "58.0a1"
+      }
+   },
+   "author": "Jorge Rumoroso",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "48": "icons/headingsMap48.png"
+      },
+      "default_title": "headingsMap"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Ctrl+Shift+O"
+         }
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "differential_fingerprint": "1.f82b6fd6f8f23a85b2924c2563ecb62f131c22a6132c747ca2aefc9f4bdea542",
+   "icons": {
+      "128": "icons/headingsMap128_with_margin.png",
+      "48": "icons/headingsMap48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy25UY5K3FEO6IMQuXIO4puZXVjmksKplo2X8lIBW3w79jFEBXegRYo6JWia0Tl7QQtffvjQXDoyXszDJTb9yKLBFIPjitI+xHFsl+dTeaJvaX0yu4tNQoJ4NE9zEsUJFP2Qdcx82d/ssGzvvyPjNfOBeyQKZQrjzUv7qgQqRXBitrvQMkItB14OKLM9OELckDlsp6FFaz+2oo2HoehSl3y4HCGO1hMsGM8tIrQ7OkrxQxyK5kJC8bYXhzrqk/m5uIxbAVOIX5h+7PJZExIGe57eEhAPFXlpkM2HKIckWDdFe+iGCFd4qVHAZzgr/jQknZXhzFVzC0bGKJGT1B9QKIwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extensionName__",
+   "permissions": [ "\u003Call_urls>", "activeTab", "storage", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.10.1",
+   "web_accessible_resources": [ "html/*", "modules/*", "getFrameId", "_locales/*" ]
+}

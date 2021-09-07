@@ -1,0 +1,28 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/firebasejs/7.10.0/firebase-app.js", "js/firebasejs/7.10.0/firebase-database.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "images/product-icon-16.png",
+         "32": "images/product-icon-32.png"
+      },
+      "default_title": "Productdesign.tips light"
+   },
+   "content_security_policy": "script-src 'self' 'sha256-4aOuMise5tN34u5oigcjda/XuteGvyJr38TTUeFTvHw=' https://www.google-analytics.com/ https://stats.g.doubleclick.net/ https://www.gstatic.com/ https://*.firebaseio.com https://www.googleapis.com  https://firebasestorage.googleapis.com https://raw.githack.com https://js.stripe.com/v3 https://cdn.paddle.com/paddle/paddle.js; object-src 'self'; connect-src 'self' wss://*.firebaseio.com https://www.googleapis.com https://securetoken.googleapis.com https://favicongrabber.com/api/grab/ https://www.google.com/s2/favicons https://url-title.now.sh https://*;",
+   "default_locale": "en",
+   "description": "Modern bookmark manager for UX & Product designers",
+   "differential_fingerprint": "1.53790889f9d9637b574dc08eab26f792f7af928f4de7c0a034d5d69ab2f15793",
+   "icons": {
+      "120": "images/product-icon-120.png",
+      "16": "images/product-icon-16.png",
+      "48": "images/product-icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm2+/xutES86zzPHwKcrdRs3G+yqfM0MpSzkWR3RVC5lTULXyod0eNsGU6rntg8JhkammhMIcgwI2QwuFglFo4Th4LGptmi1MWsCCsy1fVcOlz/EwqrhkvVsJevrNQ3aE/UozCe6nGRtnYXStZqnXrZwcRe61SHqjwGK1A0mXy6tHpxh54p4X+bGr6LRoyNPbX+6444OaDCEnXmbQRnoC6IG8YGGU6xkWqrQc+QfQk7NZL9WH0wFSUgEIJaIBjN/1TxM/aW109j9QQsdGd3xug026bCfhMtuDndqn+z/sU/qX+/QuAOCoK6of8GXpGqpY+y6beXO3TKNiBgYQwNjBTwIDAQAB",
+   "manifest_version": 2,
+   "name": "Productdesign.tips (No new tab override)",
+   "permissions": [ "tabs", "storage", "unlimitedStorage", "contextMenus", "https://url-title.now.sh/", "https://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.5.0.1"
+}

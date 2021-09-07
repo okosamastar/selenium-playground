@@ -1,0 +1,156 @@
+{
+   "cancel_button": {
+      "description": "Message displayed on the 'Cancel' button on the feedback page.",
+      "message": "Cancel"
+   },
+   "close_button": {
+      "description": "Message displayed on the 'Close' button on the warning banner and feedback page.",
+      "message": "Close"
+   },
+   "extension_description": {
+      "description": "Short description of the Password Checkup extension. This is displayed in bold as the first line in the Chrome webstore listing Overview.",
+      "message": "The Password Checkup extension helps you resecure accounts that were affected by data breaches."
+   },
+   "extension_detailed_description": {
+      "description": "The full detailed description displayed in the Chrome webstore.",
+      "message": "Wherever you sign-in, if you enter a username and password that is no longer safe due to appearing in a data breach known to Google, you’ll receive an alert. Please reset your password. If you use the same username and password for any other accounts, please reset your password there as well.\n\nPassword Checkup was built with privacy in mind. It never reports any identifying information about your accounts, passwords, or device. We do report anonymous information about the number of lookups that surface an unsafe credential, whether an alert leads to a password change, and the domain involved for improving site coverage. You can learn more about how Password Checkup works at https://support.google.com/accounts?p=password-checkup.\n\nNow that Password Checkup is integrated into Chrome, we will be sunsetting the Password Checkup extension on August 31, 2020. After this date, the Password Checkup extension will be disabled and no longer report whether a username or password has been in a data breach. In order to continue receiving warnings, users should instead sign-in to Chrome. Users must also ensure that Chrome is up to date and that the Chrome security setting ‘Warn you if passwords are exposed in a data breach’ is enabled (default unless previously changed).\n\nBy installing this item, you agree to the Google Terms of Service and Privacy Policy at www.google.com/policies/."
+   },
+   "extension_name": {
+      "description": "This extension will alert if a user's credential was exposed in a data breach.",
+      "message": "Password Checkup extension"
+   },
+   "feedback_message": {
+      "description": "Message displayed for feedback instructions.",
+      "message": "Send feedback"
+   },
+   "feedback_notice": {
+      "description": "Message displayed for legal notice prior to submit instructions.",
+      "message": "Go to the \u003Ca href=\"https://support.google.com/legal/answer/3110420\">Legal Help page\u003C/a> to request content changes for legal reasons. Some account and system information may be sent to Google. We will use the information you give us to help address technical issues and to improve our services, subject to our \u003Ca href=\"https://www.google.com/intl/en/policies/privacy/\">Privacy Policy\u003C/a> and \u003Ca href=\"https://www.google.com/intl/en/policies/terms/\">Terms of Service\u003C/a>."
+   },
+   "feedback_thanks": {
+      "description": "Message displayed upon submitting feedback.",
+      "message": "Thank you for the feedback. You can now close this page."
+   },
+   "feedback_tooltip": {
+      "description": "Message displayed for default feedback before a user enters any feedback.",
+      "message": "Describe your issue or share your ideas. Please do not include any personally identifying information or credential details as part of this feedback."
+   },
+   "ignore_button": {
+      "description": "Message displayed on the 'Ignore for this site' button on the warning banner.",
+      "message": "Ignore for this site"
+   },
+   "learn_more": {
+      "description": "This URL links to the Password Checkup extension help page.",
+      "message": "Learn more"
+   },
+   "popup_advanced_settings_action": {
+      "description": "Messaged displayed in popup to show advanced settings.",
+      "message": "Advanced settings"
+   },
+   "popup_default_status_message": {
+      "description": "Message displayed in popup when all credentials are safe or ignored.",
+      "message": "None of the passwords you recently entered were detected in a data breach."
+   },
+   "popup_ignore_button": {
+      "description": "Message displayed on the 'Ignore' button on the popup.",
+      "message": "Ignore"
+   },
+   "popup_ignored_status_message": {
+      "description": "Message displayed in popup when all credentials are safe or ignored.",
+      "message": "None of the passwords you recently entered were detected in a data breach. This does not include unsafe passwords that you have opted to ignore resetting."
+   },
+   "popup_learn_more": {
+      "description": "Message displayed on the learn more link.",
+      "message": "Learn more"
+   },
+   "popup_lookup_count_message": {
+      "description": "Message displayed in the popup describing lookup counts in the last week.",
+      "message": "Number of passwords analyzed in the last week: "
+   },
+   "popup_multiple_accounts_warning_status_message": {
+      "description": "Message displayed in popup when any credentials are unsafe (and not ignored).",
+      "message": "The Password Checkup extension detected that the following \u003Cb>$number$ accounts\u003C/b> have passwords that are no longer safe due to a data breach.",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": "1"
+         }
+      }
+   },
+   "popup_number_unsafe_accounts": {
+      "description": "Displayed under the domain of an unsafe credential if there are more than one credential.",
+      "message": "$number$ unsafe accounts",
+      "placeholders": {
+         "number": {
+            "content": "$1",
+            "example": "1"
+         }
+      }
+   },
+   "popup_one_account_warning_status_message": {
+      "description": "Message displayed in popup when one account is unsafe (and not ignored).",
+      "message": "The Password Checkup extension detected that the following \u003Cb>1 account\u003C/b> has a password that is no longer safe due to a data breach."
+   },
+   "popup_opt_out_anonymous_reporting_text": {
+      "description": "Message displayed in popup to allow users to opt out of anonymous reporting.",
+      "message": "Opt out of anonymous reporting for this installation of the extension?"
+   },
+   "popup_reset_extension_button": {
+      "description": "Message displayed on 'Reset' button on popup.",
+      "message": "Clear extension data"
+   },
+   "popup_reset_extension_text": {
+      "description": "Message displayed next to 'Reset' button on popup.",
+      "message": "Clear all extension data. This will remove all stored information about unsafe passwords and previously ignored sites."
+   },
+   "popup_send_feedback": {
+      "description": "Message displayed on the send feedback link.",
+      "message": "Send feedback"
+   },
+   "popup_turndown_link": {
+      "description": "Message displayed in the popup menu linking the user to the full turndown notice in a new window.",
+      "message": "Find out more."
+   },
+   "popup_turndown_message": {
+      "description": "Message displayed in the popup menu notifying users about the Password Checkup turndown.",
+      "message": "Now that Password Checkup is integrated into Chrome, this extension will stop working on August 31, 2020."
+   },
+   "popup_warning_action": {
+      "description": "Message displayed in popup when any credentials are unsafe (and not ignored).",
+      "message": "You should change your passwords now."
+   },
+   "reset_text": {
+      "description": "This is the action text on the warning banner telling users what to do if their credential was exposed in a data breach.",
+      "message": "You should change your password now."
+   },
+   "send_button": {
+      "description": "Message displayed on the 'Send' button on the feedback page.",
+      "message": "Send"
+   },
+   "turndown_notice": {
+      "description": "Message displayed on the turndown notice page notifying users about the Password Checkup turndown.",
+      "message": "Now that Password Checkup is integrated into Chrome, we will be sunsetting the Password Checkup extension on August 31, 2020. After this date, the Password Checkup extension will be disabled and no longer report whether a username or password has beeen in a data breach. In order to continue receiving warnings, users should instead sign-in to Chrome. Users must also ensure that Chrome is up to date and that the Chrome security setting 'Warn you if passwords are exposed in a data breach' is enabled (default unless previously changed)."
+   },
+   "turndown_subtitle": {
+      "description": "Message displayed as the subtitle on the turndown notice page.",
+      "message": "Sunset announcement"
+   },
+   "turndown_uninstall_button": {
+      "description": "Message displayed on the 'Uninstall' button on the turndown notice page.",
+      "message": "Uninstall now"
+   },
+   "warning_banner_header": {
+      "description": "This is header for the warning displayed to users if their credential was exposed in a data breach.",
+      "message": "Change your password"
+   },
+   "warning_text": {
+      "description": "This is the warning message displayed to users if their credential was exposed in a data breach.",
+      "message": "The Password Checkup extension detected that your password for \u003Cb>$domain$\u003C/b> is no longer safe due to a data breach.",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "localhost"
+         }
+      }
+   }
+}

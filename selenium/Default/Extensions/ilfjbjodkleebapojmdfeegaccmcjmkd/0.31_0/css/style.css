@@ -1,0 +1,309 @@
+body {
+  background-color: #000;
+  padding: 0px;
+  margin: 0px;
+}
+
+.masonry {
+  display: flex;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.masonry--h {
+  flex-flow: row wrap;
+}
+
+.masonry--v {
+  flex-flow: column wrap;
+  max-height: 1080px;
+}
+
+.masonry--h,
+.masonry--v {
+  margin-right: -8px; /* Adjustment for the gutter */
+  counter-reset: brick;
+  margin-left: 10px;
+}
+
+.masonry-brick {
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0 0 8px 8px; /* Some Gutter */
+  background-color: #000;
+  position: relative;
+}
+
+.masonry-brick:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5000;
+  transform: translate(-50%, -50%);
+  transition: font-size 0.25s, opacity 0.25s ease-in-out;
+  opacity: 1;
+}
+
+.masonry-brick:hover:after {
+  opacity: 1;
+}
+
+.masonry-brick--h {
+  flex: auto;
+  height: 350px;
+  min-width: 150px;
+}
+
+.tall {
+  max-width: 250px;
+}
+
+.wide {
+  min-width: 300px;
+}
+
+.mid-wide {
+  min-width: 350px;
+}
+
+.ultra-wide {
+  min-width: 450px;
+}
+
+.square {
+  max-width: 350px;
+}
+
+@media only screen and (min-width: 2205px) {
+  /* Horizontal masonry bricks on desktop-sized screen */
+  .masonry-brick--h:nth-child(4n + 1) {
+    width: 410px;
+  }
+  .masonry-brick--h:nth-child(4n + 2) {
+    width: 560px;
+  }
+  .masonry-brick--h:nth-child(4n + 3) {
+    width: 510px;
+  }
+  .masonry-brick--h:nth-child(4n + 4) {
+    width: 520px;
+  }
+
+  /* Adjusting vertical masonry height on desktop-sized screen */
+  .masonry--v {
+    max-height: 1600px;
+  }
+
+  /* Vertical masonry bricks on desktop-sized screen */
+  .masonry-brick--v {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2200px) {
+  /* Horizontal masonry bricks on desktop-sized screen */
+  .masonry-brick--h:nth-child(4n + 1) {
+    width: 300px;
+  }
+  .masonry-brick--h:nth-child(4n + 2) {
+    width: 350px;
+  }
+  .masonry-brick--h:nth-child(4n + 3) {
+    width: 220px;
+  }
+  .masonry-brick--h:nth-child(4n + 4) {
+    width: 280px;
+  }
+
+  /* Adjusting vertical masonry height on tablet-sized screen */
+  .masonry--v {
+    max-height: 2000px;
+  }
+
+  /* Vertical masonry bricks on desktop-sized screen */
+  .masonry-brick--v {
+    width: 33.33333%;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  /* Horizontal masonry bricks on tabled-sized screen */
+  .masonry-brick--h:nth-child(4n + 1) {
+    width: 200px;
+  }
+  .masonry-brick--h:nth-child(4n + 2) {
+    width: 250px;
+  }
+  .masonry-brick--h:nth-child(4n + 3) {
+    width: 120px;
+  }
+  .masonry-brick--h:nth-child(4n + 4) {
+    width: 280px;
+  }
+
+  /* Adjusting vertical masonry height on tablet-sized screen */
+  .masonry--v {
+    max-height: 2000px;
+  }
+
+  /* Vertical masonry bricks on tablet-sized screen */
+  .masonry-brick--v {
+    width: 50%;
+  }
+}
+
+.masonry-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.masonry-img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  border-radius: 5px;
+}
+
+.is-loading {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: center;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/loading.gif");
+}
+
+.is-broken {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/broken.png");
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: center;
+  background-color: #be3730;
+  width: 120px;
+}
+.is-loading img,
+.is-broken img {
+  opacity: 0;
+  border-radius: 5px;
+}
+
+.is-loading:hover img,
+.is-broken:hover img {
+  opacity: 0;
+  border-radius: 5px;
+}
+
+#search-bar {
+  width: 100%;
+  position: relative;
+  background-color: #222;
+  display: block;
+}
+
+#search-form:before {
+  content: "";
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  height: 30px;
+  width: 30px;
+  background: url("../images/searchIcon.svg") no-repeat center;
+  background-size: 20px;
+  opacity: 0.3;
+  transition: all 0.5s;
+}
+
+#search-input:before:focus {
+  opacity: 0.75;
+}
+
+#search-input {
+  width: 100%;
+  padding: 16px 0px 16px 52px;
+  font-size: 16px;
+  background-color: #222;
+  border: 0px;
+  color: #fff;
+  outline: none;
+}
+
+#search-input:focus {
+  border: 0px;
+  outline: none;
+  color: #fff;
+}
+
+.logo {
+  padding: 10px 0px 10px 14px;
+}
+
+.social {
+  max-width: 130px;
+  font-size: 12px;
+  margin-top: 2px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-items: center;
+  float: right;
+}
+
+.social a svg {
+  color: #333;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: initial;
+  transition-property: all;
+}
+
+.social a:hover svg {
+  color: #fff;
+}
+
+.logo a {
+  transition: 0.5s;
+}
+
+.logo a:hover {
+  opacity: 0.5;
+}
+
+.logo img {
+  width: 30px;
+  border: 0px;
+}
+
+nav a {
+  display: flex;
+}
+
+footer {
+  background: #111;
+  color: #444;
+  font-size: 9px;
+  height: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.note {
+  color: #555;
+  position: absolute;
+  letter-spacing: 0.2px;
+  top: 10px;
+  left: 20px;
+}
+
+.wrapper {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}

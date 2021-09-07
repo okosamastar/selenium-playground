@@ -1,0 +1,1 @@
+while true; do python3 src/amazon_selenium_search.py ; sleep 30 ; done

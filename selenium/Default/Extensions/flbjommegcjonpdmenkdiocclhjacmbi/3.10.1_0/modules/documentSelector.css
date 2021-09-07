@@ -1,0 +1,106 @@
+#document_selector_wrapper {
+    position: relative;
+    box-sizing: border-box;
+    display: none;
+    margin: -5px 3px 5px;
+}
+
+#document_selector {
+    position: relative;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+#document_selector_wrapper:not(.unique-document) {
+    display: block;
+}
+
+#document_selector_wrapper #document_selector_label,
+#document_selector_wrapper #document_selector {
+    cursor: pointer;
+    float: left;
+    box-sizing: border-box;
+}
+
+#document_selector_wrapper #document_selector_label {
+    width: 20%;
+    padding: 5px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: .9em;
+}
+
+#document_selector_wrapper #document_selector {
+    width: 80%;
+}
+
+#document_selector #list_of_documents {
+    padding: 0;
+    margin: 0 -1px;
+    position: absolute;
+    z-index: 3000;
+    border: 1px solid #CCC;
+    display: none;
+    box-shadow: 1px 1px 3px rgba(1, 1, 1, .5);
+    right: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    top: 100%;
+    width: 120%;
+    color: #333;
+    background: #FFF;
+}
+
+#document_selector_wrapper.open #document_selector {
+    border-radius: 5px 5px 0 0;
+}
+
+#document_selector_wrapper.open #list_of_documents {
+    display: block;
+}
+
+#document_selector #document_selected,
+#document_selector #list_of_documents li {
+    display: block;
+    padding: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    margin: 0;
+}
+
+#list_of_documents li:hover {
+    background-color: #F1F1F1;
+}
+
+#document_selector #document_selected {
+    cursor: pointer;
+    padding-right: 23px;
+    border: none;
+    background: no-repeat;
+    color: inherit;
+    width: 100%;
+    font-family: inherit;
+    text-align: left;
+}
+
+#document_selector #document_selected:after {
+    position: absolute;
+    content: "\025be";
+    line-height: 23px;
+    width: 24px;
+    height: 24px;
+    right: 0;
+    top: 0;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#document_selector_wrapper.open #document_selected:after {
+    transform: rotate(180deg);
+    color: #333;
+}

@@ -1,0 +1,169 @@
+{
+   "addon": {
+      "message": "add-on"
+   },
+   "appDesc": {
+      "message": "Save all images in active tab as .zip file. Easily save photos from Instagram, Google Images, etc."
+   },
+   "appName": {
+      "message": "Download All Images"
+   },
+   "appShortName": {
+      "message": "Download All Images"
+   },
+   "app_action": {
+      "message": "Download All Images"
+   },
+   "ctx_rate_addon": {
+      "message": "Rate add-on"
+   },
+   "ctx_rate_extension": {
+      "message": "Rate extension"
+   },
+   "ctx_share": {
+      "message": "Share..."
+   },
+   "ctx_share_copy": {
+      "message": "Copy URL"
+   },
+   "ctx_share_fb": {
+      "message": "Facebook"
+   },
+   "ctx_share_li": {
+      "message": "LinkedIn"
+   },
+   "ctx_share_pi": {
+      "message": "Pinterest"
+   },
+   "ctx_share_rd": {
+      "message": "Reddit"
+   },
+   "ctx_share_tw": {
+      "message": "Twitter"
+   },
+   "ctx_share_wa": {
+      "message": "Whatsapp"
+   },
+   "extension": {
+      "message": "extension"
+   },
+   "filename_mask": {
+      "message": "Override image file names"
+   },
+   "filename_mask_desc": {
+      "message": "Enter a word to use as image file name. For example, entering \"pic\" as file name pattern, generates images with names: pic1, pic2, pic3, etc. Leave this field empty to use original image file names."
+   },
+   "filename_mask_label": {
+      "message": "File name pattern:"
+   },
+   "image_count": {
+      "message": "🎉 &nbsp; $count$ images downloaded so far!",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "image_size": {
+      "message": "Minimum image size"
+   },
+   "image_size_desc": {
+      "message": "Images smaller than this threshold are excluded from download. This setting applies to raster formats."
+   },
+   "include_vectors": {
+      "message": "Download vector images"
+   },
+   "include_vectors_desc": {
+      "message": "Vectors are scalable graphics typically used as page icons. Disable this option to exclude vectors from being downloaded."
+   },
+   "max_timeout": {
+      "message": "Maximum timeout"
+   },
+   "max_timeout_desc": {
+      "message": "Timeout controls how long to wait for a single image to download. When image download exceeds this limit, download of that image will fail."
+   },
+   "max_timeout_label": {
+      "message": "Max timeout in seconds:"
+   },
+   "min_height": {
+      "message": "Height in pixels:"
+   },
+   "min_width": {
+      "message": "Width in pixels:"
+   },
+   "no_images": {
+      "message": "Sorry, did not find any images."
+   },
+   "opera_search": {
+      "message": "To use this extension with with search engines, check \"Allow access to search page results\" in Opera extensions settings.\n\nClick OK to fix now."
+   },
+   "options": {
+      "message": "Options"
+   },
+   "step1_body": {
+      "message": "Thank you for installing Download All Images.\u003Cbr/>\u003Cbr/>This short demo will show you how to use it."
+   },
+   "step1_title": {
+      "message": "Welcome!"
+   },
+   "step2_body": {
+      "message": "Download All Images can be used on any web page that has images – such as this one."
+   },
+   "step2_title": {
+      "message": "Intended use"
+   },
+   "step3_body": {
+      "message": "1. click extension menu \u003Cimg src=\"$menuIcon$\" alt='extensions' style=\"$style$\"/>\u003Cbr/>\u003Cbr/>2. then click:\u003Cbr/>\u003Cbr/>\u003Cimg src=\"$icon$\" style=\"$style$\" alt='download all images'> Download All Images\u003Cbr/>\u003Cbr/>Go ahead and try it now.",
+      "placeholders": {
+         "icon": {
+            "content": "$1"
+         },
+         "menuIcon": {
+            "content": "$3"
+         },
+         "style": {
+            "content": "$2"
+         }
+      }
+   },
+   "step3_body_alt": {
+      "message": "Click Download All Images icon \u003Cimg src=\"$icon$\" style=\"$style$\" alt='download all images'> to start download.\u003Cbr/>\u003Cbr/>Go ahead and click the icon now.",
+      "placeholders": {
+         "icon": {
+            "content": "$1"
+         },
+         "style": {
+            "content": "$2"
+         }
+      }
+   },
+   "step3_title": {
+      "message": "Start download"
+   },
+   "step4_body": {
+      "message": "When done, you will get a zip file containing all downloaded images."
+   },
+   "step4_title": {
+      "message": "Wait until finish"
+   },
+   "step5_body": {
+      "message": "If the download ever gets stuck or you want to cancel it, click the icon again to stop download.\u003Cbr/>\u003Cbr/>You will get a zip file with all images downloaded so far.",
+      "placeholders": {
+         "extension": {
+            "content": "$1"
+         }
+      }
+   },
+   "step5_title": {
+      "message": "How to cancel"
+   },
+   "step6_body": {
+      "message": "We hope you like Download All Images.\u003Cbr/>\u003Cbr/>If you find it useful please rate it and share with your friends."
+   },
+   "step6_title": {
+      "message": "That's it!"
+   },
+   "toggle_debug_mode": {
+      "message": "Run in debug mode"
+   }
+}

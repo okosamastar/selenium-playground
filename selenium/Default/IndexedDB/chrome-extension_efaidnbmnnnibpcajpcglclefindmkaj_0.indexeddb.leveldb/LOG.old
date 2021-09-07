@@ -1,0 +1,8 @@
+2021/05/12-09:40:42.289 57cb3 Reusing MANIFEST /Users/kudos/Library/Application Support/Google/Chrome/Default/IndexedDB/chrome-extension_efaidnbmnnnibpcajpcglclefindmkaj_0.indexeddb.leveldb/MANIFEST-000001
+2021/05/12-09:40:42.289 57cb3 Recovering log #3131
+2021/05/12-09:40:42.289 57cb3 Reusing old log /Users/kudos/Library/Application Support/Google/Chrome/Default/IndexedDB/chrome-extension_efaidnbmnnnibpcajpcglclefindmkaj_0.indexeddb.leveldb/003131.log 
+2021/05/12-09:40:44.351 28a37 Level-0 table #3135: started
+2021/05/12-09:40:44.351 28a37 Level-0 table #3135: 0 bytes OK
+2021/05/12-09:40:44.397 28a37 Delete type=0 #3131
+2021/05/12-09:40:44.397 28a37 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/05/12-09:40:44.398 28a37 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

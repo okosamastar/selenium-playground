@@ -1,0 +1,19 @@
+{
+   "background": {
+      "page": "background/background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon/icon-19-off.png",
+      "default_title": "ato-ichinen"
+   },
+   "description": "Activeにしている間、Google検索結果を1年以内のものに限定します。",
+   "icons": {
+      "128": "icon/icon-128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDF0qW+IRpfamJGXBz8ElHN5wKgizrCsL4FcsDOOfL5mqY1O0KWv3Upa4ih9pbGKQBRI8h5DlLmqMfQTt/op2Ir3ojaLIFJNGX5e2Tk0ipBo/zZqFSm/cmF7Qj6KkhWpuv1aF+1z3W3PEVPM2NbALn8OhxINLcbJBei8QqpCc+pHwIDAQAB",
+   "manifest_version": 2,
+   "name": "ato-ichinen",
+   "permissions": [ "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.5"
+}

@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "js/jquery-2.1.1.min.js", "js/main.js" ]
+   },
+   "content_scripts": [ {
+      "css": [ "css/bubble.css" ],
+      "js": [ "js/popupbubble.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "ASUS Download Master of the Context Menus API.",
+   "icons": {
+      "128": "img/Download_128.png",
+      "16": "img/Download_16.png",
+      "48": "img/Download_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi/UeNg1G2qt1cef+4tPtrDkKqT4UtEJiFiTL0g7ulrX8jOMXA8fAH9RLUAcZ/xho457mVo1YJzOJbERpEJaDiuXyMCTz/hombhJ7vGbPYIf8UKsYUZgrOu0hOyYPYvr71yRzo6bdERWDqpqLdoAX1ypK02Nxybr5//VCrK11/il/O7lR+SHCF1whgElj3CQky9dt1khwgXPTXEe20LU3WWsP6rJ+oO75warGvG2I4B/XOQl5zqWGfzBGJURJE4xEuFfVsxv8MtWIw4YwDoqBfT7mgPF+Frq/iW72jC7Dfa5H0KgOwU4Cin9YTeI6yoFgD0GNm7ZNbExROsnfVkrr5QIDAQAB",
+   "manifest_version": 2,
+   "name": "ASUS Download Master Plugin",
+   "options_page": "options.html",
+   "permissions": [ "contextMenus", "tabs", "http://*/*", "https://*/*", "ftp://*/*", "notifications", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.7"
+}

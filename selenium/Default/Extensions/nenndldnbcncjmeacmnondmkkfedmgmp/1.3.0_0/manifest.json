@@ -1,0 +1,19 @@
+{
+   "author": "Razvan Caliman \u003Crcaliman@adobe.com>",
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_security_policy": "script-src 'self' ; object-src 'self'",
+   "description": "Interactive editor for CSS Shapes.",
+   "devtools_page": "devtools.html",
+   "icons": {
+      "128": "images/icon-128-complex.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgZBJBGCRxPIFxm1QsslXwRcCsV+Zg7SRWpNq2sPsrMoyB69WGMLafE15EX67vCKC2qV2kDyopa0aWUDuwa2NzSJQ4TKldwIY55R2qbEZerz2vri1QhPoyJ5KjujlI2ylEknVyIVcfFwLovgqKvvACarGBfJHatpulBBQy/C1Zk/pTonKh0sBgugmDg88ugPdLo0u8ekY4vYQbWgkLLDJ62axa7gSPUnBQ0XoYw5ALEAkrJjuRn7WV/EtBY7URXHjPqkPQMUDPH9Yg4YzYQbK7GLNiUoFLAu2Fo9gUtH7+AMJvLDwKPOLCuTTVVjWCUHOKAQReVLQTW9ruLvqcDEXSwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "37.0.0",
+   "name": "CSS Shapes Editor",
+   "permissions": [ "\u003Call_urls>" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.0"
+}

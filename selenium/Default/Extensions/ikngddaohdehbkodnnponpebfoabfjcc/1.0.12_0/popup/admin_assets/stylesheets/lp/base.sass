@@ -1,0 +1,328 @@
+$white-color: #fff
+$orange-color: #ef831d
+$green-color: #5dc097
+$gray-color: #fafafa
+$red-color: #ff0000
+$breakpoint: 768px
+$black-color: #262626
+$pc-min-width: 1000px
+$content-width: 980px
+$section-padding-top: 20px
+
+@mixin screen_sp
+  @media screen and (max-width:$breakpoint)
+    @content
+
+@mixin screen_pc
+  @media screen and (min-width:$breakpoint + 1)
+    @content
+
+@mixin header_padding
+  @include screen_pc
+    padding-top: 100px
+  @include screen_sp
+    padding-top: 55.75px
+
+@mixin main_headline
+  h1
+    font-size: 30px
+    padding: 80px 10px
+    width: 100%
+
+    @include screen_sp
+      font-size: 26px
+
+@mixin accent_btn
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+  padding: 10px 20px
+  border: none
+  outline: none
+  width: 100%
+  font-size: 16px
+  background-color: $orange-color
+  border-radius: 40px
+  color: $white-color
+  cursor: pointer
+
+
+body,html
+  font-family: "century gothic", "メイリオ", sans-serif
+  font-size: 15px
+  letter-spacing: 1.5px
+  color: $black-color
+  word-wrap: break-word
+  @include screen_sp
+    font-size: 13px
+
+div,p,ul,li,h1,h2,h3,h4,header,footer,main,section,select,input,textarea
+  box-sizing: border-box
+
+img
+  width: 100%
+
+a
+  text-decoration: none
+
+ul li
+  list-style: none
+
+h1
+  font-size: 40px
+  font-weight: normal
+
+  @include screen_sp
+    font-size: 30px
+    width: 80%
+
+h2
+  font-weight: bold
+  letter-spacing: 1.5px
+  text-align: center
+  @include screen_pc
+    font-size: 30px
+    margin-bottom: 70px
+  @include screen_sp
+    line-height: 2rem
+    font-size: 20px
+    margin-bottom: 40px
+    margin-top: 80px
+
+h3
+  font-weight: bold
+  margin-bottlm: 20px
+
+
+.only-pc
+  @include screen_sp
+    display: none !important
+
+.only-sp
+  @include screen_pc
+    display: none !important
+
+.sentence
+  text-align: center
+  line-height: 1.7
+
+  @include screen_sp
+    text-align: left
+
+.has-error
+  margin: 10px 20px
+  color: $red-color
+  font-size: 12px
+
+header.header
+  @include screen_pc
+    width: 150px
+    position: fixed
+    top: 30px
+    left: 30px
+    z-index: 1
+
+  @include screen_sp
+    position: absolute
+    top: 0
+    left: 0
+    padding: 10px
+    z-index: 1
+    width: 100%
+
+  .header-inner
+    @include screen_pc
+      width: 152px
+
+    @include screen_sp
+      display: flex
+      align-items: center
+
+    .logo
+      @include screen_pc
+        display: block
+        margin-bottom: 30px
+        width: 100px
+
+      @include screen_sp
+        width: 100%
+
+        img
+          width: 80px
+
+    .nav-bar
+      @include screen_pc
+        display: none
+
+      @include screen_sp
+        display: block
+        width: 35px
+        height: 29px
+        position: relative
+        top: 0
+        right: 0
+        z-index: 100
+
+        div
+          position: relative
+
+          span
+            display: block
+            height: 3px
+            background: #000
+            position: absolute
+            width: 100%
+            left: 0
+            -webkit-transition: 0.5s ease-in-out
+            -moz-transition: 0.5s ease-in-out
+            transition: 0.5s ease-in-out
+
+            &:nth-child(1)
+              top: 0
+
+            &:nth-child(2)
+              top: 12px
+
+            &:nth-child(3)
+              top: 24px
+
+    nav.menu
+      @include screen_pc
+        margin-left: auto
+
+        ul
+          li
+            font-size: 22px
+            font-weight: bold
+            margin-bottom: 26px
+
+            a
+              color: $black-color
+              &:hover
+                text-decoration-line: underline
+
+      @include screen_sp
+        display: none
+        position: absolute
+        top: 49px
+        width: 100%
+        background: $orange-color
+        opacity: .8
+        left: 0
+
+        ul
+          display: block
+          margin: 0 auto
+          width: 90%
+
+        li
+          margin: 0 auto
+          text-align: center
+          border-bottom: 1px solid #fff
+
+          &:last-child
+            border: none
+
+          a
+            display: block
+            padding: 15px 0
+            color: $white-color
+
+header.header.open
+  .nav-bar
+    div
+      span:nth-child(1)
+        top: 12px
+        -webkit-transform: rotate(135deg)
+        -moz-transform: rotate(135deg)
+        transform: rotate(135deg)
+
+      span:nth-child(2)
+        width: 0
+        left: 50%
+
+      span:nth-child(3)
+        top: 12px
+        -webkit-transform: rotate(-135deg)
+        -moz-transform: rotate(-135deg)
+        transform: rotate(-135deg)
+
+header.header.fixed
+  position: fixed
+  z-index: 1000
+  @include screen_sp
+    background-color: $white-color
+
+  nav.menu ul li a
+    color: $black-color
+
+  @include screen_sp
+    .nav-bar
+      div
+        span
+          background: $black-color
+
+    nav.menu ul li a
+      color: $white-color
+
+main
+  @include screen_pc
+    min-width: $pc-min-width
+
+footer.footer
+  @include screen_pc
+    margin-top: 150px
+    min-width: $pc-min-width
+    height: 200px
+
+  @include screen_sp
+    padding: 80px 0
+
+  background-color: $black-color
+  color: $white-color
+
+  .footer-links
+    @include screen_pc
+      padding: 60px 0 40px
+      text-align: center
+
+    @include screen_sp
+      margin-bottom: 50px
+      padding: 0 20px
+
+    ul
+      @include screen_sp
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+      li
+        @include screen_pc
+          display: inline-block
+          vertical-align: middle
+          margin-left: 20px
+
+        @include screen_sp
+          vertical-align: middle
+
+          &:last-child
+            margin-bottom: 0
+
+        a
+          color: $white-color
+
+      .icon
+        @include screen_pc
+          width: 30px
+        @include screen_sp
+          width: 30px
+
+        &:first-child
+          margin-left: 0
+
+  .copyright
+    font-size: 13px
+    text-align: center
+
+    @include screen_sp
+      font-size: 10px

@@ -1,0 +1,69 @@
+.on-off-switch
+  display: inline-block
+  position: relative
+  width: 4em
+  -webkit-user-select:none
+  -moz-user-select:none
+  -ms-user-select: none
+  vertical-align: middle
+  height: 26px
+  > input
+    display: none
+
+  > label.on-off-switch-label
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    height: 100%
+    overflow: hidden
+    cursor: pointer
+    border-radius: 26px
+
+    > span.on-off-switch-inner
+      display: block
+      height: 100%
+      width: 200%
+      margin-left: -100%
+      -moz-transition: margin 0.3s ease-in 0s
+      -webkit-transition: margin 0.3s ease-in 0s
+      -o-transition: margin 0.3s ease-in 0s
+      transition: margin 0.3s ease-in 0s
+
+      > span
+        display: inline-block
+        height: 100%
+        color: #FFF
+        width: 50%
+        font-size: 12px
+        line-height: 26px
+        text-align: center
+
+      > span.before
+        padding-right: 20px
+        background-color: #7AC29A
+      > span.after
+        background-color: #cfcfca
+        padding-left: 20px
+
+    > span.on-off-switch-switch
+      display: block
+      width: 22px
+      height: 22px
+      margin: 3px
+      background: #FFFFFF
+      border-radius: 50%
+      position: absolute
+      top: -1px
+      bottom: 0
+      right: 28px
+      -moz-transition: all 0.3s ease-in 0s
+      -webkit-transition: all 0.3s ease-in 0s
+      -o-transition: all 0.3s ease-in 0s
+      transition: all 0.3s ease-in 0s
+
+  > input:checked + label.on-off-switch-label > span.on-off-switch-inner
+    margin-left: 0
+
+  > input:checked + label.on-off-switch-label > span.on-off-switch-switch
+    right: 0px

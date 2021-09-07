@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Download Master Options</title>
+		<script src="js/options.js"></script>
+	</head>
+	<body>
+		<center>
+			<form>
+			<table>
+				<tr>
+					<td colspan="3"></td>
+				</tr>
+				<tr>
+					<th colspan="3" style="font-size:120%">Please enter Download Master 2 information as below:<p></p></th><p></p>
+				</tr>
+				
+				<tr> 
+					<td rowspan = "4" style="width:20%"><b>DM Address:</b></td>
+					<!-- <td>http://<input id="url" placeholder="192.168.1.1" style="width:150px"></input></td> -->
+				</tr>
+				
+				<tr>					
+					<td><input id="rdLocal" type="radio" name="DMAddress" checked><b>DM Local URL:</b></input></td>
+					<td>http://&nbsp;<input id="url" placeholder="192.168.1.1" style="width:150px"></input></td>
+				</tr>
+				<tr>
+					<td rowspan = "2"><input id="rdremote" type="radio" name="DMAddress"><b>DM Remote URL:</b></input></td>
+					<td><input id="rdasusDDNS" type="radio"  name="RemoteURL" checked>http://&nbsp;<input id="asusDDNSurl" placeholder="DDNS_Name" style="width:80px"></input>&nbsp;.asuscomm.com</td>
+				</tr>
+				<tr>					
+					<td><input id="rdothersDDNS" type="radio"  name="RemoteURL">http://&nbsp;<input id="othersDDNSurl" placeholder="DDNS_Name.asuscomm.com" style="width:180px"></input></td>
+				</tr>
+											
+				<tr>
+					<td><b>DM Port:</b></td>
+					<td colspan="2"><input id="port" placeholder="8081" style="width:80px"></input></td>
+				</tr>
+				<tr>
+					<td><b>Username:</b></td>
+					<td colspan="2"><input id="username" placeholder="admin" style="width:300px"></input></td>
+				</tr>
+				<tr>
+					<td><b>Password:</b></td>
+					<td colspan="2"><input id="password" placeholder="admin" style="width:300px"></input></td>
+				</tr>
+				<tr>
+					<td colspan="3"><center><input id="OkBtn" type="button" onclick="javascript:alert('hello!')" value="OK"></input></center></td>					
+				</tr>
+			</table>			
+			<div id="hidden_txet" style="display:none">
+			<br>
+			<table>
+			<tr>
+				<td>If you see this page, you maybe have some problems to submit task to the Download Master!</td>
+			</tr>
+			<tr>
+				<td>1. You maybe forgot to plugin the USB stroage!</td>
+			</tr>
+			<tr>
+				<td>2. The Download Master IP was changed!!</td>
+			</tr>
+			<tr>
+				<td>3. The Download Master Port was changed!!</td>
+			</tr>
+			<tr>
+				<td>4. You maybe changed the login information!!</td>
+			</tr>
+			<tr>
+				<td>5. You may not install Download Master in the <a id="ConfigPageLink" href="#">web Configuration Page</a></td>
+			</tr>
+			</table>
+			</div>
+		</form>
+		</center>
+	</body>
+</html>

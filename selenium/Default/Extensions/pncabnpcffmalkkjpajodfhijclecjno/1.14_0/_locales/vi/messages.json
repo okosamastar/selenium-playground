@@ -1,0 +1,119 @@
+{
+   "cancel_button": {
+      "message": "Hủy"
+   },
+   "close_button": {
+      "message": "Đóng"
+   },
+   "extension_description": {
+      "message": "Tiện ích Kiểm tra mật khẩu giúp bạn bảo mật lại các tài khoản chịu ảnh hưởng của các sự cố rò rỉ dữ liệu."
+   },
+   "extension_detailed_description": {
+      "message": "Bất cứ khi nào bạn đăng nhập bằng tên người dùng và mật khẩu không còn an toàn do một vấn đề rò rỉ dữ liệu mà Google đã phát hiện, bạn sẽ nhận được cảnh báo. Vui lòng đặt lại mật khẩu của bạn. Nếu bạn sử dụng tên người dùng và mật khẩu giống nhau cho mọi tài khoản khác, hãy đặt lại mật khẩu cho cả những tài khoản đó.\n\nTiện ích Kiểm tra mật khẩu coi trọng việc bảo vệ quyền riêng tư. Tính năng này không bao giờ báo cáo thông tin nhận dạng nào về tài khoản, mật khẩu hay thiết bị của bạn. Tuy nhiên, chúng tôi vẫn báo cáo thông tin ẩn danh về số lượt tìm kiếm mà kết quả trả về thông tin đăng nhập không an toàn, việc người dùng có đổi mật khẩu khi nhận được cảnh báo hay không, và miền liên quan để tăng phạm vi hoạt động của tiện ích. Bạn có thể tìm hiểu thêm về cách hoạt động của tiện ích Kiểm tra mật khẩu tại https://support.google.com/accounts?p=password-checkup.\n\nVì tính năng Kiểm tra mật khẩu đã được tích hợp vào Chrome, nên chúng tôi sẽ ngừng hỗ trợ tiện ích Kiểm tra mật khẩu từ ngày 31 tháng 8 năm 2020. Sau ngày này, tiện ích này sẽ bị vô hiệu hóa và không còn báo cáo thông tin về việc một tên người dùng hoặc mật khẩu có bị lộ trong một vụ rò rỉ dữ liệu hay không. Để tiếp tục nhận được cảnh báo, người dùng nên đăng nhập vào Chrome. Người dùng cũng phải cập nhật Chrome lên phiên bản mới nhất và bật tùy chọn cài đặt bảo mật \"Cảnh báo cho bạn nếu mật khẩu của bạn bị lộ trong một vụ rò rỉ dữ liệu\" (trạng thái mặc định là bật trừ khi đã thay đổi trước đó) trong Chrome.\n\nBằng cách cài đặt mục này, bạn đồng ý với Điều khoản dịch vụ và Chính sách quyền riêng tư của Google tại www.google.com/policies/."
+   },
+   "extension_name": {
+      "message": "Tiện ích Kiểm tra mật khẩu"
+   },
+   "feedback_message": {
+      "message": "Gửi ý kiến phản hồi"
+   },
+   "feedback_notice": {
+      "message": "Nếu bạn muốn yêu cầu thay đổi nội dung vì lý do pháp lý, hãy truy cập \u003Ca href=\"https://support.google.com/legal/answer/3110420\">trang Trợ giúp về pháp lý\u003C/a>. Một số thông tin về tài khoản và hệ thống có thể được gửi đến Google. Chúng tôi sẽ sử dụng thông tin bạn cung cấp để giải quyết các vấn đề kỹ thuật và cải thiện các dịch vụ của chúng tôi theo cách tuân thủ \u003Ca href=\"https://www.google.com/intl/en/policies/privacy/\">Chính sách quyền riêng tư\u003C/a> và \u003Ca href=\"https://www.google.com/intl/en/policies/terms/\">Điều khoản dịch vụ\u003C/a> của chúng tôi."
+   },
+   "feedback_thanks": {
+      "message": "Cảm ơn bạn đã gửi ý kiến phản hồi. Bây giờ, bạn có thể đóng trang này."
+   },
+   "feedback_tooltip": {
+      "message": "Mô tả vấn đề hoặc chia sẻ ý kiến của bạn. Xin vui lòng không đưa bất kỳ thông tin nhận dạng cá nhân hay thông tin đăng nhập nào vào ý kiến phản hồi."
+   },
+   "ignore_button": {
+      "message": "Bỏ qua trên trang web này"
+   },
+   "learn_more": {
+      "message": "Tìm hiểu thêm"
+   },
+   "popup_advanced_settings_action": {
+      "message": "Cài đặt nâng cao"
+   },
+   "popup_default_status_message": {
+      "message": "Hệ thống không phát hiện thấy sự cố rò rỉ dữ liệu nào với các mật khẩu mà bạn nhập gần đây."
+   },
+   "popup_ignore_button": {
+      "message": "Bỏ qua"
+   },
+   "popup_ignored_status_message": {
+      "message": "Hệ thống không phát hiện thấy sự cố rò rỉ dữ liệu nào với các mật khẩu mà bạn nhập gần đây. Kết quả này không kể đến những mật khẩu không an toàn mà bạn vẫn giữ lại."
+   },
+   "popup_learn_more": {
+      "message": "Tìm hiểu thêm"
+   },
+   "popup_lookup_count_message": {
+      "message": "Số mật khẩu đã phân tích trong tuần qua:"
+   },
+   "popup_multiple_accounts_warning_status_message": {
+      "message": "Tiện ích Kiểm tra mật khẩu đã phát hiện rằng mật khẩu cho \u003Cb>$1 tài khoản\u003C/b> sau không còn an toàn do do một sự cố rò rỉ dữ liệu.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_number_unsafe_accounts": {
+      "message": "$1 tài khoản không an toàn",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_one_account_warning_status_message": {
+      "message": "Tiện ích Kiểm tra mật khẩu đã phát hiện rằng mật khẩu cho \u003Cb>1 tài khoản\u003C/b> sau không còn an toàn do một sự cố rò rỉ dữ liệu."
+   },
+   "popup_opt_out_anonymous_reporting_text": {
+      "message": "Chọn không sử dụng tính năng báo cáo ẩn danh khi cài đặt tiện ích này?"
+   },
+   "popup_reset_extension_button": {
+      "message": "Xóa dữ liệu tiện ích"
+   },
+   "popup_reset_extension_text": {
+      "message": "Xóa tất cả dữ liệu tiện ích. Hành động này sẽ xóa tất cả thông tin đã lưu về các mật khẩu không an toàn và trang web đã bỏ qua trước đó."
+   },
+   "popup_send_feedback": {
+      "message": "Gửi phản hồi"
+   },
+   "popup_turndown_link": {
+      "message": "Tìm hiểu thêm."
+   },
+   "popup_turndown_message": {
+      "message": "Vì tính năng Kiểm tra mật khẩu hiện đã được tích hợp vào Chrome, nên tiện ích này sẽ ngừng hoạt động từ ngày 31 tháng 8 năm 2020."
+   },
+   "popup_warning_action": {
+      "message": "Bạn nên đổi mật khẩu ngay bây giờ."
+   },
+   "reset_text": {
+      "message": "Bạn nên đổi mật khẩu ngay bây giờ."
+   },
+   "send_button": {
+      "message": "Gửi"
+   },
+   "turndown_notice": {
+      "message": "Vì tính năng Kiểm tra mật khẩu đã được tích hợp vào Chrome, nên chúng tôi sẽ ngừng hỗ trợ tiện ích Kiểm tra mật khẩu từ ngày 31 tháng 8 năm 2020. Sau ngày này, tiện ích này sẽ bị vô hiệu hóa và không còn báo cáo thông tin về việc một tên người dùng hoặc mật khẩu có bị lộ trong một vụ rò rỉ dữ liệu hay không. Để tiếp tục nhận được cảnh báo, người dùng nên đăng nhập vào Chrome. Người dùng cũng phải cập nhật Chrome lên phiên bản mới nhất và bật tùy chọn cài đặt bảo mật \"Cảnh báo cho bạn nếu mật khẩu của bạn bị lộ trong một vụ rò rỉ dữ liệu\" (trạng thái mặc định là bật trừ khi đã thay đổi trước đó) trong Chrome."
+   },
+   "turndown_subtitle": {
+      "message": "Thông báo về việc ngừng hỗ trợ tiện ích"
+   },
+   "turndown_uninstall_button": {
+      "message": "Gỡ cài đặt ngay"
+   },
+   "warning_banner_header": {
+      "message": "Đổi mật khẩu"
+   },
+   "warning_text": {
+      "message": "Tiện ích Kiểm tra mật khẩu đã phát hiện rằng mật khẩu của bạn cho \u003Cb>$1\u003C/b> không còn an toàn do một sự cố rò rỉ dữ liệu.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

@@ -1,0 +1,119 @@
+{
+   "cancel_button": {
+      "message": "Mégse"
+   },
+   "close_button": {
+      "message": "Bezárás"
+   },
+   "extension_description": {
+      "message": "A Jelszóvizsgálat bővítmény segít újra biztonságossá tenni az adatvédelmi incidens által érintett fiókokat."
+   },
+   "extension_detailed_description": {
+      "message": "Értesítést kap, ha bejelentkezéskor olyan felhasználónevet és jelszót ad meg, amelyek egy Google által ismert adatvédelmi incidens miatt már nem biztonságosak. Ilyenkor, kérjük, módosítsa jelszavát. Ha más fiókoknál is ugyanazt a felhasználónevet és jelszót használja, az érintett fiókokban is módosítsa jelszavát.\n\nA Jelszóvizsgálat létrehozásakor az adatvédelem volt a fő szempont. A funkció sosem továbbít azonosító adatokat az Ön fiókjairól, jelszavairól és eszközeiről. A webhelyek lefedettségének növelése érdekében névtelen információkat továbbítunk a nem biztonságos hitelesítési adatokat felfedő keresések számáról, az érintett domainről, illetve arról, hogy a figyelmeztetés jelszómódosításhoz vezet-e. További információ a Jelszóvizsgálat működéséről: https://support.google.com/accounts?p=password-checkup.\n\nMivel a Jelszóvizsgálat funkció már integráltan rendelkezésre áll a Chrome-ban, a Jelszóellenőrzés bővítményt 2020. augusztus 31-én eltávolítjuk. E dátumot követően a Jelszóellenőrzés bővítményt kikapcsoljuk, így ez a bővítmény a továbbiakban már nem tudja jelenteni, hogy érintett volt-e valamelyik felhasználónév vagy jelszó adatvédelmi incidensben. Azoknak a felhasználóknak, akik a továbbiakban is értesítéseket szeretnének kapni, be kell jelentkezniük a Chrome-ba. A felhasználóknak azt is biztosítaniuk kell, hogy a Chrome naprakész, illetve hogy be van kapcsolva a Chrome „Figyelmeztetés, ha jelszavai adatvédelmi incidens során nyilvánosságra kerülnek” biztonsági beállítása (a beállítás alapértelmezés szerint be van kapcsolva).\n\nA telepítéssel elfogadja a Google Általános Szerződési Feltételeket és Adatvédelmi irányelveket (www.google.com/policies/)."
+   },
+   "extension_name": {
+      "message": "Jelszóvizsgálat bővítmény"
+   },
+   "feedback_message": {
+      "message": "Visszajelzés küldése"
+   },
+   "feedback_notice": {
+      "message": "Ha jogi okok miatt szeretne tartalomváltoztatást kérelmezni, lépjen a \u003Ca href=\"https://support.google.com/legal/answer/3110420\">Jogi Súgó oldalára\u003C/a>. A Google megkaphat bizonyos adatokat a fiókról és rendszerről. A megadott információkat technikai problémák megoldására és szolgáltatásaink javítására használjuk fel \u003Ca href=\"https://www.google.com/intl/hu/policies/privacy/\">Adatvédelmi irányelveinkkel\u003C/a> és \u003Ca href=\"https://www.google.com/intl/hu/policies/terms/\">Általános Szerződési Feltételeinkkel\u003C/a> összhangban."
+   },
+   "feedback_thanks": {
+      "message": "Köszönjük visszajelzését. Most már bezárhatja az oldalt."
+   },
+   "feedback_tooltip": {
+      "message": "Írja le a problémáját, vagy ossza meg velünk ötleteit. Kérjük, ne adjon meg személyazonosításra alkalmas vagy hitelesítési adatokat a visszajelzésben."
+   },
+   "ignore_button": {
+      "message": "Ezen a webhelyen hagyja figyelmen kívül"
+   },
+   "learn_more": {
+      "message": "További információ"
+   },
+   "popup_advanced_settings_action": {
+      "message": "Speciális beállítások"
+   },
+   "popup_default_status_message": {
+      "message": "Egyik mostanában megadott jelszavát sem észleltük adatvédelmi incidens során."
+   },
+   "popup_ignore_button": {
+      "message": "Mellőzés"
+   },
+   "popup_ignored_status_message": {
+      "message": "Egyik mostanában megadott jelszavát sem észleltük adatvédelmi incidens során. Ez nem vonatkozik azokra a nem biztonságos jelszavakra, amelyeknél a módosítás mellőzése mellett döntött."
+   },
+   "popup_learn_more": {
+      "message": "További információ"
+   },
+   "popup_lookup_count_message": {
+      "message": "Az elemzett jelszavak száma az elmúlt héten:"
+   },
+   "popup_multiple_accounts_warning_status_message": {
+      "message": "A Jelszóvizsgálat bővítmény szerint a következő \u003Cb>$1 fiók\u003C/b> jelszavai adatvédelmi incidens miatt már nem biztonságosak.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_number_unsafe_accounts": {
+      "message": "$1 nem biztonságos fiók",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_one_account_warning_status_message": {
+      "message": "A Jelszóvizsgálat bővítmény szerint a következő \u003Cb>1 fiók\u003C/b> jelszava adatvédelmi incidens miatt már nem biztonságos."
+   },
+   "popup_opt_out_anonymous_reporting_text": {
+      "message": "Kikapcsolja a névtelen jelentést a bővítmény jelenlegi verziójára vonatkozóan?"
+   },
+   "popup_reset_extension_button": {
+      "message": "Bővítményadatok törlése"
+   },
+   "popup_reset_extension_text": {
+      "message": "Az összes bővítményadat törlése. Ezzel a biztonságos jelszavakkal és korábban mellőzött oldalakkal kapcsolatban tárolt összes adatot törli."
+   },
+   "popup_send_feedback": {
+      "message": "Visszajelzés küldése"
+   },
+   "popup_turndown_link": {
+      "message": "További információ."
+   },
+   "popup_turndown_message": {
+      "message": "Mivel a Jelszóvizsgálat funkció már integráltan rendelkezésre áll a Chrome-ban, ez a bővítmény 2020. augusztus 31-től kezdve nem fog működni."
+   },
+   "popup_warning_action": {
+      "message": "Érdemes azonnal megváltoztatnia jelszavait."
+   },
+   "reset_text": {
+      "message": "Érdemes azonnal megváltoztatnia jelszavát."
+   },
+   "send_button": {
+      "message": "Küldés"
+   },
+   "turndown_notice": {
+      "message": "Mivel a Jelszóvizsgálat funkció már integráltan rendelkezésre áll a Chrome-ban, a Jelszóellenőrzés bővítményt 2020. augusztus 31-én eltávolítjuk. E dátumot követően a Jelszóellenőrzés bővítményt kikapcsoljuk, így ez a bővítmény a továbbiakban már nem tudja jelenteni, hogy érintett volt-e valamelyik felhasználónév vagy jelszó adatvédelmi incidensben. Azoknak a felhasználóknak, akik a továbbiakban is értesítéseket szeretnének kapni, be kell jelentkezniük a Chrome-ba. A felhasználóknak azt is biztosítaniuk kell, hogy a Chrome naprakész, illetve hogy be van kapcsolva a Chrome „Figyelmeztetés, ha jelszavai adatvédelmi incidens során nyilvánosságra kerülnek” biztonsági beállítása (a beállítás alapértelmezés szerint be van kapcsolva)."
+   },
+   "turndown_subtitle": {
+      "message": "Közlemény a megszüntetésről"
+   },
+   "turndown_uninstall_button": {
+      "message": "Eltávolítás most"
+   },
+   "warning_banner_header": {
+      "message": "Módosítsa jelszavát"
+   },
+   "warning_text": {
+      "message": "A Jelszóvizsgálat bővítmény szerint az Ön \u003Cb>$1\u003C/b> domainhez tartozó jelszava adatvédelmi incidens miatt már nem biztonságos.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

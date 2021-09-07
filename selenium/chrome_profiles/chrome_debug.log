@@ -1,0 +1,30 @@
+[1975:2002:0904/070935.834374:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: そのようなファイルやディレクトリはありません
+[1975:2010:0904/070935.861409:ERROR:bus.cc(393)] Failed to connect to the bus: Address does not contain a colon
+[1975:2010:0904/070935.861927:ERROR:bus.cc(393)] Failed to connect to the bus: Address does not contain a colon
+[1975:2000:0904/070935.868768:ERROR:gpu_process_host.cc(995)] GPU process exited unexpectedly: exit_code=4
+[1975:2000:0904/070935.869134:WARNING:gpu_process_host.cc(1308)] The GPU process has crashed 1 time(s)
+[1975:2010:0904/070935.922818:ERROR:bus.cc(393)] Failed to connect to the bus: Address does not contain a colon
+[1975:2010:0904/070935.923739:ERROR:bus.cc(393)] Failed to connect to the bus: Address does not contain a colon
+[1975:2000:0904/070935.995347:ERROR:gpu_process_host.cc(995)] GPU process exited unexpectedly: exit_code=4
+[1975:2000:0904/070935.996067:WARNING:gpu_process_host.cc(1308)] The GPU process has crashed 2 time(s)
+[1975:2057:0904/070936.020983:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: そのようなファイルやディレクトリはありません
+[1975:2057:0904/070936.022844:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: そのようなファイルやディレクトリはありません
+[1975:2057:0904/070936.023509:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: そのようなファイルやディレクトリはありません
+[1975:2057:0904/070936.024184:WARNING:property.cc(144)] DaemonVersion: GetAndBlock: failed.
+[1975:2057:0904/070936.024612:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: そのようなファイルやディレクトリはありません
+[1975:2057:0904/070936.025119:ERROR:bus.cc(393)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: そのようなファイルやディレクトリはありません
+[1975:2000:0904/070936.068518:ERROR:gpu_process_host.cc(995)] GPU process exited unexpectedly: exit_code=4
+[1975:2000:0904/070936.069937:WARNING:gpu_process_host.cc(1308)] The GPU process has crashed 3 time(s)
+[2064:2064:0904/070936.149710:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is disabled
+[1975:2000:0904/070936.187094:WARNING:gpu_process_host.cc(1023)] Reinitialized the GPU process after a crash. The reported initialization time was 0 ms
+[1975:1975:0904/070936.957491:WARNING:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.", source:  (0)
+[1975:1975:0904/070939.101864:INFO:CONSOLE(0)] "[DOM] Found 3 elements with non-unique id #all-offers-display-params: (More info: https://goo.gl/9p2vKq) %o %o %o", source: https://www.amazon.co.jp/dp/B07F76K6FJ (0)
+[1975:1975:0904/070939.102459:INFO:CONSOLE(0)] "[DOM] Found 3 elements with non-unique id #all-offers-display-reload-param: (More info: https://goo.gl/9p2vKq) %o %o %o", source: https://www.amazon.co.jp/dp/B07F76K6FJ (0)
+[1975:1975:0904/070940.812659:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.", source:  (0)
+[1975:1975:0904/070941.564452:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.", source:  (0)
+[1975:1975:0904/070941.917517:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.", source:  (0)
+[1975:1975:0904/070944.156163:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.", source:  (0)
+[1975:1975:0904/070945.451941:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.", source:  (0)
+[2009:2026:0904/070956.163874:WARNING:sqlite_persistent_store_backend_base.cc(171)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:220 to client_task_runner_.
+[2009:2026:0904/070956.164876:WARNING:sqlite_persistent_store_backend_base.cc(171)] Failed to post task from FlushAndNotifyInBackground@net/extras/sqlite/sqlite_persistent_store_backend_base.cc:220 to client_task_runner_.
+[1975:1975:0904/070956.189014:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

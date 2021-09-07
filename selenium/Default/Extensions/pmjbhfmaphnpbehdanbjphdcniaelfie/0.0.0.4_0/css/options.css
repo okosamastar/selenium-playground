@@ -1,0 +1,14 @@
+.container {
+	width: 70%;
+	margin: 10px auto;
+	min-width: 700px;
+}
+
+.btn .glyphicon {
+	top: 0px;
+}
+
+.flag-preview {
+	display: inline-block;
+	width: 16px;
+}

@@ -1,0 +1,29 @@
+{
+   "browser_action": {
+      "default_icon": "images/19.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_defaultTitle__"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "css": [ "assets/css/contentscript.css" ],
+      "js": [ "assets/js/jquery-1.11.1.min.js", "assets/js/contentscript.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "ja",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "images/128.png",
+      "48": "images/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVUYqqKrhrGuxjEUTyPjrJiuec06ym7DnIADJvw7u/XF6T84a/bJiMIrZ1DnRl3tolaBsRN4aPcT3PeCbXlE9ETfbpt6ym07hQO+EFCrXtjxxN2jOoKhcib0zyhDxQRgSurQ8rCDVRrcVSCd28+M7NU067hapllQKWnbzF7sFf6wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "storage" ],
+   "short_name": "A & M viewer",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.9",
+   "web_accessible_resources": [ "images/close.svg", "images/close_w.svg", "images/arrow.svg" ]
+}

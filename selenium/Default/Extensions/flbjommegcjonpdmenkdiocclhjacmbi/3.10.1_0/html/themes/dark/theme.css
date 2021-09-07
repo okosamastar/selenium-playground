@@ -1,0 +1,145 @@
+.dark-theme #headingsMapWrapper,
+.dark-theme #sliding_dialog_panel,
+.dark-theme #headingsMapWrapper .results ul,
+.dark-theme #headingsMapWrapper li,
+.dark-theme #headingsMapWrapper .results.active .tree-root,
+.dark-theme #headingsMapWrapper .tab-button,
+.dark-theme #headingsMapWrapper #main-menu ul,
+.dark-theme #headingsMapWrapper #list_of_documents,
+.dark-theme #headingsMapWrapper #document_selector #document_selected:after{
+    color: #CCC;
+}
+
+.dark-theme,
+.dark-theme #headingsMapWrapper,
+.dark-theme #sliding_dialog_panel,
+.dark-theme #headingsMapWrapper .results ul,
+.dark-theme #headingsMapWrapper .results ul li:nth-last-child(1),
+.dark-theme #headingsMapWrapper .results ol,
+.dark-theme #headingsMapWrapper .results ol li:nth-last-child(1),
+.dark-theme #headingsMapWrapper .results.active,
+.dark-theme #headingsMapWrapper .tab-button.active,
+.dark-theme #headingsMapWrapper #main-menu ul,
+.dark-theme #headingsMapWrapper #menu-link,
+.dark-theme #headingsMapWrapper #main-menu li:first-child:after,
+.dark-theme #headingsMapWrapper #document_selector #list_of_documents{
+    background-color: #222;
+}
+
+.dark-theme #headingsMapWrapper p,
+.dark-theme #headingsMapWrapper a,
+.dark-theme #sliding_dialog_panel a,
+.dark-theme #headingsMapWrapper .no-headed {
+    color: #CCC;
+}
+
+.dark-theme #headingsMapWrapper .tab-button,
+.dark-theme #headingsMapWrapper .panel-results,
+.dark-theme #headingsMapWrapper #sliding_dialog_panel,
+.dark-theme #headingsMapWrapper #sliding_dialog_panel .fieldset,
+.dark-theme #headingsMapWrapper #main-menu ul,
+.dark-theme #headingsMapWrapper #main-menu li:first-child:after,
+.dark-theme #headingsMapWrapper #list_of_documents,
+.dark-theme #headingsMapWrapper #document_selector,
+.dark-theme #headingsMapWrapper .visibility-legend {
+    border-color: #555 !important;
+}
+
+.dark-theme #headingsMapWrapper .tab-button:focus {
+    border-top-color: #CCC !important;
+}
+
+.dark-theme #headingsMapWrapper .tab-button,
+.dark-theme #headingsMapWrapper #list_of_documents li:hover,
+.dark-theme #headingsMapWrapper .visibility-legend{
+    background-color: #333;
+}
+
+.dark-theme #headingsMapWrapper .results a.active-element {
+    border-right-color: #888888;
+    background-color: #333333;
+}
+
+.dark-theme #extension_title {
+    background-image: url(./themes/dark/icons/headingsMap40_light.png);
+}
+
+.dark-theme.show-error #headingsMapWrapper .head-error,
+.dark-theme.show-error #headingsMapWrapper .no-headed,
+.dark-theme.show-error.show-head-error-h1 #headingsMapWrapper .head-error-h1 {
+    background-color: #800 !important;
+}
+
+.dark-theme .tooltip-error {
+    background-color: #800 !important;
+}
+
+.dark-theme #headingsMapWrapper #menu-link  {
+    background-image: url(./themes/dark/icons/menu.png);
+}
+
+.dark-theme #headingsMapWrapper #headingsMap_refresh {
+    background-image: url(./themes/dark/icons/refresh.png);
+}
+
+.dark-theme #sliding_dialog_panel #settings_form h2,
+.dark-theme #headingsMapWrapper #headingsMap_settings {
+    background-image: url(./themes/dark/icons/wrench.png);
+}
+
+.dark-theme #sliding_dialog_panel #help_panel h2,
+.dark-theme #headingsMapWrapper #help {
+    background-image: url(./themes/dark/icons/info.png);
+}
+
+.dark-theme #sliding_dialog_panel #release_notes h2,
+.dark-theme #headingsMapWrapper #headingsMap_release_notes {
+    background-image: url(./themes/dark/icons/releasenotes.png);
+}
+
+.dark-theme #sliding_dialog_panel #privacy_policy h2,
+.dark-theme #headingsMapWrapper #headingsMap_privacy_policy {
+    background-image: url(./themes/dark/icons/privacy.png);
+}
+
+.dark-theme #sliding_dialog_panel #contribute_panel h2,
+.dark-theme #headingsMapWrapper #contribute {
+    background-image: url(./themes/dark/icons/contribute.png);
+}
+
+.dark-theme .headingsMap_closer {
+    background-image: url(./themes/dark/icons/close.png);
+}
+
+.dark-theme.show-hidden-headers #headingsMapWrapper .results[data-panel-id=headingsTab] a.hidden-head,
+.dark-theme.show-hidden-sections #headingsMapWrapper .results[data-panel-id=outlineTab] a.hidden-head,
+.dark-theme .hiddenElementsCounter,
+.dark-theme .tooltip-content .hidden-head  {
+    background-image: url(./themes/dark/icons/hidden.png);
+}
+
+.dark-theme #headingsMapWrapper .results a[href] .anchor-icon,
+.dark-theme .tooltip-content .anchor-icon  {
+    background-image: url(./themes/dark/icons/anchor.png);
+}
+
+.dark-theme .custom-scrollbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.3);
+    background-color: #555;
+}
+
+.dark-theme .custom-scrollbar::-webkit-scrollbar {
+    background-color: #555;
+}
+
+.dark-theme .tooltip,
+.dark-theme .tooltip .arrow::after {
+    background-color: #222;
+    color: #CCC;
+    border-color: #555 !important;
+    border-width: 2px;
+}
+
+.dark-theme .results a:focus {
+    box-shadow: inset 0 0 3px rgba(255, 255, 255, 1);
+}

@@ -1,0 +1,120 @@
+.widget-chart-btns, .target-chart-btns
+  text-align: right
+  margin-bottom: 15px
+
+
+.content.report-table-wrapper
+  position: relative
+  max-width: 3000px
+  overflow-x: auto
+  padding-bottom: 0
+  padding-left: 0
+  padding-right: 0
+  border: 0
+
+  .report-table-header
+    height: 60px
+    padding-top: 10px
+    padding-left: 10px
+    font-size: 15px
+
+  table.table
+    min-width: 100%
+    width: auto
+    max-width: auto
+
+  table.table > thead > tr > th
+    font-size: 12px
+    word-break: break-word
+    min-width: 80px
+
+  table.table > thead > tr > th.date
+    width: 85px
+
+  table.table > tbody > tr > td
+    font-size: 12px
+
+  table.table > thead > tr
+    th.date
+      min-width: 90px
+    th.ctr
+      min-width: 60px
+    th.click
+      min-width: 60px
+    th.cpc
+      min-width: 60px
+    th.article-index
+      min-width: 40px
+    th.monthly-label
+      min-width: 60px
+    th.report-link
+      min-width: 60px
+
+
+.all-report
+  text-align: center
+
+  .all-report-title
+    font-size: 16px
+
+  .numbers
+    text-align: center
+
+  .numbers.yen:after
+    font-size: 0.5em
+
+  .small
+    font-size: 12px
+
+.daily-report
+  td.advertisement_image
+    img
+      display: none
+  td.advertisement_title
+    span
+      display: none
+
+.tab-pane
+  .card
+    position: relative
+
+table.downloadable
+  caption
+    caption-side: top
+    padding: 0
+
+    button
+      position: absolute
+      top: 15px
+      right: 35px
+
+      &:before
+        font-family: 'Glyphicons Halflings'
+        content: "\e025"
+        margin-right: 5px
+
+.content.table-without-header
+  padding-top: 60px
+
+.more-daily-report
+  padding: 10px 0
+  text-align: center
+
+.select-advertisement
+  display: inline
+  width: 600px
+
+.select-genre
+  display: inline
+  width: 400px
+
+#widgetChartByWidget, #publisherChart, #advertisementChart, #articleChart, #mediumChart, #genreChart
+  .widget-chart-by, .publisher-chart-by,
+  .advertisement-chart-by, .article-chart-by,
+  .medium-chart-by, .genre-chart-by
+    display: none
+
+  .widget-chart-by.active, .publisher-chart-by.active,
+  .advertisement-chart-by.active, .article-chart-by.active,
+  .medium-chart-by.active, .genre-chart-by.active
+    display: block

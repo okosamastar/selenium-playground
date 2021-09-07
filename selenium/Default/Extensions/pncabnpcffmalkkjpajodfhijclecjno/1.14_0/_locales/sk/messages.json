@@ -1,0 +1,119 @@
+{
+   "cancel_button": {
+      "message": "Zrušiť"
+   },
+   "close_button": {
+      "message": "Zavrieť"
+   },
+   "extension_description": {
+      "message": "Kontrola hesiel pomáha obnoviť zabezpečenie účtov, ktoré boli zasiahnuté porušením ochrany údajov."
+   },
+   "extension_detailed_description": {
+      "message": "Keď pri prihlasovaní zadáte používateľské meno a heslo, ktoré už nie sú bezpečné z dôvodu porušenia ochrany údajov, o ktorom Google vie, dostanete upozornenie. Resetujte svoje heslo. Ak používate rovnaké používateľské meno a heslo pre ďalšie účty, resetujte heslo aj v nich.\n\nKontrola hesiel bola vytvorená na zaistenie ochrany súkromia. Nikdy nenahlasuje žiadne informácie o vašich účtoch, heslách ani zariadeniach, podľa ktorých by vás bolo možné identifikovať. Na účely zlepšovania kontroly webov nahlasujeme anonymné informácie o počte vyhľadávaní, ktoré odhalia nebezpečné prihlasovacie údaje, informácie o tom, či upozornenie viedlo k zmene hesla, a údaje o zahrnutých doménach. Viac o fungovaní kontroly hesiel sa dozviete na https://support.google.com/accounts?p=password-checkup.\n\nKontrola hesiel je už integrovaná v Chrome, takže rozšírenie Kontrola hesiel ukončíme 31. augusta 2020. Potom bude toto rozšírenie deaktivované a už nebude nahlasovať, či bolo používateľské meno alebo heslo odhalené v rámci porušenia ochrany údajov. Používatelia, ktorí chcú naďalej dostávať upozornenia, by sa mali namiesto toho prihlásiť do Chromu. Musia sa tiež uistiť, či je Chrome aktuálny a nastavenie zabezpečenia „Upozorňovať pri prezradení hesiel v rámci porušenia ochrany údajov“ je povolené (ak ste ho nezmenili, predvolene je zapnuté).\n\nInštaláciou tejto položky vyjadrujete súhlas so zmluvnými podmienkami spoločnosti Google a pravidlami ochrany súkromia uvedenými na www.google.com/policies/."
+   },
+   "extension_name": {
+      "message": "Kontrola hesiel"
+   },
+   "feedback_message": {
+      "message": "Odoslať spätnú väzbu"
+   },
+   "feedback_notice": {
+      "message": "Ak chcete požiadať o zmeny obsahu z právnych dôvodov, prejdite na \u003Ca href=\"https://support.google.com/legal/answer/3110420\">stránku právnej pomoci\u003C/a>. Niektoré informácie o účte a systéme sa môžu odoslať Googlu. Poskytnuté údaje použijeme na odstránenie technických problémov a zlepšenie služieb v súlade s \u003Ca href=\"https://www.google.com/intl/en/policies/privacy/\">pravidlami ochrany súkromia\u003C/a> a \u003Ca href=\"https://www.google.com/intl/en/policies/terms/\">zmluvnými podmienkami\u003C/a>."
+   },
+   "feedback_thanks": {
+      "message": "Ďakujeme vám za spätnú väzbu. Stránku môžete zavrieť."
+   },
+   "feedback_tooltip": {
+      "message": "Opíšte svoj problém alebo sa podeľte o nápady. V tejto spätnej väzbe neuvádzajte žiadne informácie umožňujúce zistenie totožnosti ani poverenia."
+   },
+   "ignore_button": {
+      "message": "Ignorovať pre tento web"
+   },
+   "learn_more": {
+      "message": "Ďalšie informácie"
+   },
+   "popup_advanced_settings_action": {
+      "message": "Rozšírené nastavenia"
+   },
+   "popup_default_status_message": {
+      "message": "V súvislosti s porušením ochrany údajov nebolo zistené žiadne heslo, ktoré ste tu nedávno zadali."
+   },
+   "popup_ignore_button": {
+      "message": "Ignorovať"
+   },
+   "popup_ignored_status_message": {
+      "message": "V súvislosti s porušením ochrany údajov nebolo zistené žiadne heslo, ktoré ste tu nedávno zadali. Netýka sa to však nebezpečných hesiel, ktorých resetovanie ste sa rozhodli ignorovať."
+   },
+   "popup_learn_more": {
+      "message": "Ďalšie informácie"
+   },
+   "popup_lookup_count_message": {
+      "message": "Počet hesiel analyzovaných za posledný týždeň:"
+   },
+   "popup_multiple_accounts_warning_status_message": {
+      "message": "Rozšírenie Kontrola hesiel zistilo, že nasledujúce účty (\u003Cb>$1\u003C/b>) majú heslá, ktoré už nie sú v dôsledku porušenia ochrany údajov bezpečné.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_number_unsafe_accounts": {
+      "message": "Počet nezabezpečených účtov: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_one_account_warning_status_message": {
+      "message": "Rozšírenie Kontrola hesiel zistilo, že nasledujúci \u003Cb>jeden účet\u003C/b> má heslo, ktoré už nie je v dôsledku porušenia ochrany údajov bezpečné."
+   },
+   "popup_opt_out_anonymous_reporting_text": {
+      "message": "Chcete sa odhlásiť z odberu anonymných prehľadov pre túto inštaláciu rozšírenia?"
+   },
+   "popup_reset_extension_button": {
+      "message": "Vymazať údaje rozšírenia"
+   },
+   "popup_reset_extension_text": {
+      "message": "Vymažte všetky údaje rozšírenia. Týmto sa odstránia všetky uložené údaje o nebezpečných heslách a doposiaľ ignorovaných weboch."
+   },
+   "popup_send_feedback": {
+      "message": "Odoslať spätnú väzbu"
+   },
+   "popup_turndown_link": {
+      "message": "Ďalšie informácie"
+   },
+   "popup_turndown_message": {
+      "message": "Kontrola hesiel je už integrovaná v Chrome, takže toto rozšírenie prestane fungovať 31. augusta 2020."
+   },
+   "popup_warning_action": {
+      "message": "Mali by ste si okamžite zmeniť heslá."
+   },
+   "reset_text": {
+      "message": "Mali by ste si okamžite zmeniť heslo."
+   },
+   "send_button": {
+      "message": "Odoslať"
+   },
+   "turndown_notice": {
+      "message": "Kontrola hesiel je už integrovaná v Chrome, takže rozšírenie Kontrola hesiel ukončíme 31. augusta 2020. Potom bude toto rozšírenie deaktivované a už nebude nahlasovať, či bolo používateľské meno alebo heslo odhalené v rámci porušenia ochrany údajov. Používatelia, ktorí chcú naďalej dostávať upozornenia, by sa mali namiesto toho prihlásiť do Chromu. Musia sa tiež uistiť, či je Chrome aktuálny a nastavenie zabezpečenia „Upozorňovať pri prezradení hesiel v rámci porušenia ochrany údajov“ je povolené (ak ste ho nezmenili, predvolene je zapnuté)."
+   },
+   "turndown_subtitle": {
+      "message": "Oznámenie o ukončení"
+   },
+   "turndown_uninstall_button": {
+      "message": "Odinštalovať"
+   },
+   "warning_banner_header": {
+      "message": "Zmeňte si heslo"
+   },
+   "warning_text": {
+      "message": "Rozšírenie Kontrola hesiel zistilo, že vaše heslo domény \u003Cb>$1\u003C/b> už nie je v dôsledku porušenia ochrany údajov bezpečné.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

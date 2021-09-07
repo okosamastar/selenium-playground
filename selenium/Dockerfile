@@ -1,4 +1,4 @@
-FROM selenium/standalone-firefox-debug:3.141.59
+FROM selenium/standalone-chrome-debug:3.141.59
 
 USER root
 RUN apt-get update \

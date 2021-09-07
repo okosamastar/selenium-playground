@@ -1,0 +1,27 @@
+@import "lp/base"
+
+main
+  @include header_padding
+
+  .contact-done
+    .contact-done-body
+      @include screen_pc
+        margin: 0 30px 50px
+        text-align: center
+      @include screen_sp
+        margin: 0 10px 30px
+
+      .document-link
+        margin-bottom: 30px
+
+      .link-btn
+        margin: 50px auto 100px
+        text-align: center
+
+        @include screen_pc
+          width: 250px
+
+        a
+          display: block
+          box-sizing: border-box
+          @include accent_btn

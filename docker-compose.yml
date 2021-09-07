@@ -9,6 +9,7 @@ services:
       - 15900:5900
     volumes:
       - /dev/shm:/dev/shm
+      - ./selenium/chrome_profiles:/tmp/chrome_profiles
       - /etc/localtime:/etc/localtime:ro
     environment:
       - SCREEN_WIDTH=1600

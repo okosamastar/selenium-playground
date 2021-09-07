@@ -1,0 +1,125 @@
+#headingsMapWrapper,
+#sliding_dialog_panel,
+#headingsMapWrapper .results ul,
+#headingsMapWrapper li,
+#headingsMapWrapper .tab-button,
+#headingsMapWrapper .results.active .tree-root,
+#headingsMapWrapper .results.active,
+#headingsMapWrapper #main-menu ul {
+    color: #333;
+}
+
+body,
+#headingsMapWrapper,
+#sliding_dialog_panel,
+#headingsMapWrapper #main-menu ul,
+#headingsMapWrapper #menu-link,
+#headingsMapWrapper #main-menu li:first-child:after {
+    background: #FFF;
+}
+
+#headingsMapWrapper .results ul,
+#headingsMapWrapper .results ul li:nth-last-child(1),
+#headingsMapWrapper .results ol,
+#headingsMapWrapper .results ol li:nth-last-child(1),
+#headingsMapWrapper .results.active,
+#headingsMapWrapper .tab-button {
+    background-color: #FFF;
+}
+
+#headingsMapWrapper .panel-results,
+#headingsMapWrapper .tab-button,
+#sliding_dialog_panel,
+#sliding_dialog_panel .fieldset,
+#headingsMapWrapper #main-menu ul,
+#headingsMapWrapper #main-menu li:first-child:after,
+#headingsMapWrapper .visibility-legend {
+    border-color: #CCC !important;
+}
+
+#headingsMapWrapper .tab-button:focus {
+    border-top-color: #333 !important;
+}
+
+#headingsMapWrapper .visibility-legend{
+    background-color: #EEE;
+}
+
+#headingsMapWrapper p,
+#headingsMapWrapper a,
+#sliding_dialog_panel a,
+#headingsMapWrapper .no-headed {
+    color: #333;
+}
+
+#headingsMapWrapper .results a.active-element {
+    border-right-color: #CCCCCC;
+    background-color: #EEEEEE;
+}
+
+#extension_title {
+    background-image: url(./themes/bright/icons/headingsMap40_dark.png);
+}
+
+.show-error #headingsMapWrapper .head-error,
+.show-error #headingsMapWrapper .no-headed,
+.show-error.show-head-error-h1 #headingsMapWrapper .head-error-h1 {
+    background-color: #FF7575 !important;
+}
+
+.tooltip-error {
+    background-color: #FF7575 !important;
+}
+
+#headingsMapWrapper #menu-link {
+    background-image: url(./themes/bright/icons/menu.png);
+}
+
+#headingsMapWrapper #headingsMap_refresh {
+    background-image: url(./themes/bright/icons/refresh.png);
+}
+
+#sliding_dialog_panel #settings_form h2,
+#headingsMapWrapper #headingsMap_settings {
+    background-image: url(./themes/bright/icons/wrench.png);
+}
+
+#sliding_dialog_panel #help_panel h2,
+#headingsMapWrapper #help {
+    background-image: url(./themes/bright/icons/info.png);
+}
+
+#sliding_dialog_panel #release_notes h2,
+#headingsMapWrapper #headingsMap_release_notes {
+    background-image: url(./themes/bright/icons/releasenotes.png);
+}
+
+#sliding_dialog_panel #privacy_policy h2,
+#headingsMapWrapper #headingsMap_privacy_policy {
+    background-image: url(./themes/bright/icons/privacy.png);
+}
+
+#sliding_dialog_panel #contribute_panel h2,
+#headingsMapWrapper #contribute {
+    background-image: url(./themes/bright/icons/contribute.png);
+}
+
+.headingsMap_closer {
+    background-image: url(./themes/bright/icons/close.png);
+}
+
+.show-hidden-headers #headingsMapWrapper .results[data-panel-id=headingsTab] a.hidden-head,
+.show-hidden-sections #headingsMapWrapper .results[data-panel-id=outlineTab] a.hidden-head,
+.hiddenElementsCounter,
+.tooltip-content .hidden-head{
+    background-image: url(./themes/bright/icons/hidden.png);
+}
+
+#headingsMapWrapper .results a[href] .anchor-icon,
+.tooltip-content .anchor-icon {
+    background-image: url(./themes/bright/icons/anchor.png);
+}
+
+.results a:focus {
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 1);
+}

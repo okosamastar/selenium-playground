@@ -1,0 +1,119 @@
+{
+   "cancel_button": {
+      "message": "Avbryt"
+   },
+   "close_button": {
+      "message": "Stäng"
+   },
+   "extension_description": {
+      "message": "Med hjälp av tillägget Lösenordskontroll kan du förnya skyddet för konton som har utsatts för dataintrång."
+   },
+   "extension_detailed_description": {
+      "message": "Du får en avisering om du loggar in någonstans och anger ett användarnamn och lösenord som Google vet har blivit utsatt under ett dataintrång och därför inte längre är säkert. Återställ lösenordet. Om du använder samma användarnamn och lösenord för andra konton återställer du lösenordet där också.\n\nLösenordskontrollen skapades för att hjälpa dig att skydda din integritet. Den rapporterar aldrig information som kan identifiera konton, lösenord eller enheter. Däremot rapporteras anonym information om antalet uppslagningar som gav en osäker användaruppgift till svar, om lösenordet ändrades eller inte efter en varning och vilken domän det gällde i syfte att ge bättre webbplatstäckning. Du kan läsa mer om hur lösenordskontrollen fungerar på https://support.google.com/accounts?p=password-checkup.\n\nNu när Lösenordskontroll har integrerats i Chrome fasar vi ut tillägget Lösenordskontroll den 31 augusti 2020. Efter detta datum inaktiveras tillägget Lösenordskontroll och rapporterar inte längre om ett användarnamn eller lösenord har utsatts för dataintrång. Användare loggar i stället in på Chrome för att fortsätta att ta emot varningar. Användare måste även kontrollera att Chrome har uppdaterats och att säkerhetsinställningen för Chrome ”En varning visas om lösenord har läckt ut vid ett dataintrång” har aktiverats (visas som standard om den inte ändrats tidigare).\n\nGenom att installera det här objektet godkänner du Googles användarvilkor och sekretesspolicy på www.google.com/policies/."
+   },
+   "extension_name": {
+      "message": "tillägget Lösenordskontroll"
+   },
+   "feedback_message": {
+      "message": "Skicka feedback"
+   },
+   "feedback_notice": {
+      "message": "Öppna \u003Ca href=\"https://support.google.com/legal/answer/3110420\">hjälpsidan för juridiska ärenden\u003C/a> om du vill begära ändring av innehåll av juridiska skäl. Vissa konto- och systemuppgifter kan skickas till Google. Vi använder de uppgifter som du ger oss till att åtgärda tekniska problem och förbättra våra tjänster, i enlighet med vår \u003Ca href=\"https://www.google.com/intl/en/policies/privacy/\">sekretesspolicy\u003C/a> och våra \u003Ca href=\"https://www.google.com/intl/en/policies/terms/\">användarvillkor\u003C/a>."
+   },
+   "feedback_thanks": {
+      "message": "Tack för din feedback. Du kan nu stänga den här sidan."
+   },
+   "feedback_tooltip": {
+      "message": "Beskriv problemet eller dela med dig av dina idéer- Ange inga uppgifter som kan kopplas till en specifik individ eller användaruppgifter i din feedback."
+   },
+   "ignore_button": {
+      "message": "Ignorera på denna webbplats"
+   },
+   "learn_more": {
+      "message": "Läs mer"
+   },
+   "popup_advanced_settings_action": {
+      "message": "Avancerade inställningar"
+   },
+   "popup_default_status_message": {
+      "message": "Inga av de lösenord som du nyligen har använt har identifierats i samband med dataintrång."
+   },
+   "popup_ignore_button": {
+      "message": "Ignorera"
+   },
+   "popup_ignored_status_message": {
+      "message": "Inga av de lösenord som du nyligen har använt har identifierats i samband med dataintrång. Informationen ovan gäller inte osäkra lösenord som du har valt bort återställningsfunktionen för."
+   },
+   "popup_learn_more": {
+      "message": "Läs mer"
+   },
+   "popup_lookup_count_message": {
+      "message": "Antal lösenord som har analyserats under den senaste veckan:"
+   },
+   "popup_multiple_accounts_warning_status_message": {
+      "message": "Tillägget Lösenordskontroll har upptäckt att följande \u003Cb>$1 konton\u003C/b> har lösenord som inte längre är säkra på grund av ett dataintrång.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_number_unsafe_accounts": {
+      "message": "$1 osäkra konton",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_one_account_warning_status_message": {
+      "message": "Tillägget Lösenordskontroll har upptäckt att lösenordet till följande \u003Cb>konto\u003C/b> inte längre är säkert på grund av ett dataintrång."
+   },
+   "popup_opt_out_anonymous_reporting_text": {
+      "message": "Vill du välja bort anonym rapportering för den här installationen av tillägget?"
+   },
+   "popup_reset_extension_button": {
+      "message": "Rensa data för tillägget"
+   },
+   "popup_reset_extension_text": {
+      "message": "Rensa all data för tillägget All lagrad information om osäkra lösenord och webbplatser som tidigare har ignorerats tas bort."
+   },
+   "popup_send_feedback": {
+      "message": "Skicka feedback"
+   },
+   "popup_turndown_link": {
+      "message": "Läs mer."
+   },
+   "popup_turndown_message": {
+      "message": "Nu när Lösenordskontrollen har integrerats i Chrome slutar detta tillägg att fungera den 31 augusti 2020."
+   },
+   "popup_warning_action": {
+      "message": "Du bör genast byta lösenord."
+   },
+   "reset_text": {
+      "message": "Du bör genast byta lösenord."
+   },
+   "send_button": {
+      "message": "Skicka"
+   },
+   "turndown_notice": {
+      "message": "Nu när Lösenordskontroll har integrerats i Chrome fasar vi ut tillägget Lösenordskontroll den 31 augusti 2020. Efter detta datum inaktiveras tillägget Lösenordskontroll och rapporterar inte längre om ett användarnamn eller lösenord har utsatts för dataintrång. Användare loggar i stället in på Chrome för att fortsätta att ta emot varningar. Användare måste även kontrollera att Chrome har uppdaterats och att säkerhetsinställningen för Chrome ”En varning visas om lösenord har läckt ut vid ett dataintrång” har aktiverats (visas som standard om den inte ändrats tidigare)."
+   },
+   "turndown_subtitle": {
+      "message": "Meddelande om utfasning"
+   },
+   "turndown_uninstall_button": {
+      "message": "Avinstallera nu"
+   },
+   "warning_banner_header": {
+      "message": "Byt lösenord"
+   },
+   "warning_text": {
+      "message": "Tillägget Lösenordskontroll har upptäckt att ditt lösenord på \u003Cb>$1\u003C/b> inte längre är säkert på grund av ett dataintrång.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

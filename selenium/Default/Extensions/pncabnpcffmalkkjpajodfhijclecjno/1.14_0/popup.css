@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Google+Sans);
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined);
+
+#status-banner {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+#status-banner-title {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.popup-container {
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#status-message {
+  padding-bottom: 0;
+}
+
+#turndown-alert {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: thin solid #d2e3fc;
+  background-color: #d2e3fc;
+  border-radius: 4px;
+}
+
+#message {
+  padding-bottom: 15px;
+}
+
+.unsafe-account-list-item {
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+  padding-right:10px;
+  padding-left:10px;
+  justify-content: space-between;
+}
+
+.unsafe-account-list-item:not(:last-child) {
+  border-bottom: 1px solid #dadce0;
+  margin-bottom: 10px;
+}
+
+.unsafe-account-list-item-action {
+  flex: 0;
+  width: 100px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+#advanced-settings-list {
+  display: table;
+}
+
+.advanced-settings-list-item {
+  min-height: 50px;
+  border-spacing: 0px 10px;
+}
+
+.advanced-settings-list-item:not(:last-child) {
+  border-bottom: 1px solid #dadce0;
+}
+
+.advanced-settings-action {
+  flex: 0;
+  width: 100px;
+  vertical-align: middle;
+  text-align: end;
+  padding-left: 10px;
+}
+
+.advanced-settings-cell {
+  display: table-cell;
+  padding-right: 10px;
+}
+
+.unsafe-account-text {
+  flex-grow: 1;
+  overflow-x: hidden;
+}
+
+.unsafe-account-name {
+  font-weight: bold;
+  color: #1a73e8;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.unsafe-account-name:hover {
+  text-decoration: underline;
+}
+
+.unsafe-account-number {
+  font-size: 11px;
+  overflow: hidden;
+  color: #404040;
+  padding-left: 10px;
+}
+
+.unsafe-account-icon-tray {
+  display: inline-flex;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.unsafe-account-icon {
+  fill: #80868b;
+}
+
+.list-item-button {
+  border: 1px solid #dadce0;
+  background-color: #ffffff;
+  color: #1a73e8;
+  padding: 4px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  min-width: 80px;
+  font-weight: bold;
+  font-family: 'Google Sans', 'Roboto', Arial, sans-serif;
+  font-size: 14px;
+}
+
+.list-item-button:hover {
+  background-color: #f7faff;
+  border: 1px solid #d2e3fc;
+}
+
+#reset-button:hover {
+  background-color: #cadcff;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link {
+  cursor: pointer;
+  color: #1a73e8;
+}
+
+#links {
+  display: flex;
+  white-space: pre-wrap;
+}
+
+#advanced-settings-footer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  color: #3c4043;
+  fill: #3c4043;
+  min-height: 50px;
+}
+
+#lookup-count-message {
+  flex: 1;
+  padding-right: 30px;
+  color: #5f6368;
+}
+
+#advanced-settings-action {
+  margin-left: 5px;
+}
+
+#advanced-settings:hover {
+  text-decoration: underline;
+}
+
+#advanced-settings {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  max-width: 40%;
+}
+
+#reset-text {
+  flex: 1;
+  overflow: hidden;
+  color: #404040;
+}
+
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  width: 380px;
+  color: #202124;
+  background-color: #f1f3f4;
+  margin: 5px;
+}
+
+#turndown-icon-tray {
+  padding-right: 2.5px;
+}
+
+#turndown-announcement-icon {
+  vertical-align: middle;
+  font-size: 20px;
+}

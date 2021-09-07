@@ -1,0 +1,258 @@
+$breakpoint: 768px
+$accent-color: #ff8f00
+
+@mixin screen_sp
+  @media screen and (max-width:$breakpoint)
+    @content
+
+@mixin screen_pc
+  @media screen and (min-width:$breakpoint + 1)
+    @content
+
+body,html
+  font-family: "メイリオ", sans-serif
+  font-size: 15px
+  letter-spacing: 1px
+  @include screen_pc
+    margin: 0 auto
+    width: 900px
+
+  @include screen_sp
+    width: 100%
+
+div,p,ul,li,h1,h2,h3,h4,header,footer,main,section,select,input,textarea
+  box-sizing: border-box
+
+img
+  width: 100%
+
+a
+  text-decoration: none
+
+ul li
+  list-style: none
+
+h1
+  padding: 10px 0
+  font-size: 30px
+  text-align: center
+
+  @include screen_sp
+    font-size: 25px
+
+h2
+  font-size: 26px
+  font-weight: normal
+  padding: 0 10px
+  margin-bottom: 20px
+  line-height: 1.5
+  letter-spacing: 1.5px
+  text-align: center
+
+  @include screen_sp
+    font-size: 18px
+
+.only-pc
+  @include screen_sp
+    display: none !important
+
+.only-sp
+  @include screen_pc
+    display: none !important
+
+main
+
+.main-visual
+  margin-bottom: 50px
+
+  img
+    display: block
+
+  .title
+    padding: 15px 10px
+    font-size: 20px
+    background-color: #343434
+    font-weight: bold
+    color: #fff
+
+  .info
+    display: flex
+    justify-content: space-between
+    margin: 5px 5px 0
+    font-size: 12px
+
+.sentence
+  margin: 0 5px 30px
+  line-height: 1.5
+
+.image
+  margin: 0 5px 30px
+
+.ads-logo
+  font-size: 10px
+  text-align: right
+  color: #999
+  margin-top: 3px
+  margin-right: 5px
+  margin-bottom: 500px
+
+  img
+    width: 40px
+
+.dots
+  margin-top: 15px
+  display: flex
+  justify-content: center
+
+  .dot
+    width: 10px
+    height: 10px
+    background-color: #ccc
+    border-radius: 50%
+    margin-left: 10px
+
+    &:first-child
+      margin-left: 0
+
+  .dot.active
+    background-color: $accent-color
+
+#slideshowDemo
+  .slideshow
+    margin: 0 5px
+    position: relative
+    overflow: hidden
+
+    .slide-contents
+      position: relative
+
+      .slide
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: center center
+
+        &:before
+          content: ''
+          display: block
+          padding-top: 56.25%
+
+      .slide0
+        position: relative
+
+#carouselDemo
+  .carousel
+    .carousel-wrapper
+      position: relative
+      overflow: hidden
+
+      .carousel-contents
+        position: relative
+        left: 0
+
+        .overlay
+          &:before
+            background-color: #fff
+            opacity: 0.3
+
+        .slide
+          position: absolute
+          top: 0
+          left: 100%
+          width: 56.25%
+          background-repeat: no-repeat
+          background-size: cover
+          background-position: center center
+
+          &:before
+            content: ''
+            display: block
+            padding-top: 100%
+
+        .slide0
+          position: relative
+          left: 0%
+
+        .slide1
+          left: 56.25%
+
+      .slide-move
+        position: absolute
+        top: 50%
+        height: 30px
+        width: 30px
+
+      .slide-move-left
+        left: 10px
+        transform: translateY(-50%)
+
+      .slide-move-right
+        right: 10px
+        transform: translateY(-50%)
+
+#scrollDemo
+  margin-bottom: 500px
+
+  .scroll-wrapper
+    position: relative
+    width: 365px
+
+    @include screen_pc
+      margin: 0 auto
+
+    @include screen_sp
+      margin: 0 2%
+
+    .scroll-click
+      position: absolute
+      display: block
+      top: 0
+
+      @include screen_pc
+        left: 50%
+        transform: translateX(-50%)
+        height: 206px
+        width: 365px
+      @include screen_sp
+        left: 0
+        width: calc(100vw * 0.96)
+        height: calc(calc(100vw * 0.96) * (9/16))
+
+    .scroll
+      position: relative
+      height: 206px
+      width: 365px
+
+      @include screen_sp
+        width: calc(100vw * 0.96)
+        height: calc(calc(100vw * 0.96) * (9/16))
+        -webkit-clip-path: inset(0)
+        clip-path: inset(0)
+
+      .scroll-content
+        @include screen_pc
+          background-position: 50% calc(100vh - 730px)
+          background-size: 365px 730px
+          height: inherit
+          background-attachment: fixed
+
+        @include screen_sp
+          width: calc(100vw * 0.96)
+          height: 100vh
+          background-size: calc(100vw * 0.96) calc(calc(100vw * 0.96) * 2)
+          background-position: 50% calc(100vh - calc(calc(100vw * 0.96) * 2))
+          position: fixed
+          top: 0
+          pointer-events: none
+
+  .ads-logo
+    width: 365px
+    margin: 5px auto
+    text-align: right
+
+    @include screen_sp
+      width: 96%
+      margin: 5px 2% 0

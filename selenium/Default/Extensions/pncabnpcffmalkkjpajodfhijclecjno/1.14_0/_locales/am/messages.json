@@ -1,0 +1,119 @@
+{
+   "cancel_button": {
+      "message": "ይቅር"
+   },
+   "close_button": {
+      "message": "ዝጋ"
+   },
+   "extension_description": {
+      "message": "የሚስጥር ቃል ማረጋገጫ ቅጥያ በውሂብ ጥሰቶች ተጽዕኖ የደረሰባቸው የመለያዎች ደህንነት መልሰው እንዲያስጠብቁ ያስችልዎታል።"
+   },
+   "extension_detailed_description": {
+      "message": "በመለያ በገቡ ማንኛውም ጊዜ Google በሚያውቀው የውሂብ ጥሰት ላይ በመታየቱ ምክንያት ደህንነቱ ያልተጠበቀ የተጠቃሚ ስም እና የይለፍ ቃል ካስገቡ ማንቂያ ይደርሰዎታል። እባክዎ የይለፍ ቃልዎን ዳግም ያስጀምሩት። ለማናቸውም ሌሎች መለያዎች ተመሳሳዩን የተጠቃሚ ስም እና የይለፍ ቃል የሚጠቀሙ ከሆኑ እባክዎ እንዲሁም እዚህ ላይ የይለፍ ቃልዎን ዳግም ያስጀምሩት።\n\nየይለፍ ቃል ፍተሻ ግላዊነት ከግምት ውስጥ በማስገባት የተገነባ ነው። የእርስዎን መለያዎች፣ የይለፍ ቃላት ወይም መሣሪያ የሚለይ ማንኛውም መረጃን በጭራሽ ሪፖርት አያደርግም። ደህንነቱ ያልተጠበቀ የመግቢያ መረጃ የሚሰጡ የፍለጋዎች ብዛት፣ አንድ ማንቂያ የይለፍ ቃል አምጥቶ እንደሆነ፣ እና የጣቢያ ሽፋንን ለማሻሻል የተሳተፈው ጎራ መረጃ ሪፖርት እናደርጋለን። https://support.google.com/accounts?p=password-checkup ላይ የይለፍ ቃል ፍተሻ እንዴት እንደሚሠራ ተጨማሪ ማወቅ ይችላሉ።\n\nአሁን ያ የይለፍ ቃል ፍተሻ ከ Chrome ጋር የተዋሃደ እንደመሆኑ፣ በኦገስት 31፣ 2020 ላይ የይለፍ ቃል ፍተሻ ቅጥያውን እንዲያበቃ እናደርጋለን። ከዚህ ቀን በኋላ፣ የይለፍ ቃል ፍተሻ ቅጥያ ይሰናከላል እንዲሁም የተጠቃሚ ስም ወይም የይለፍ ቃል የውሂብ ደንብን መጣስ አለመጣሱን ከዚህ ጊዜ በኋላ ሪፖርት አያደርግም። ማስጠንቀቂዎችን መቀበልን ለመቀጠል፣ ተጠቃሚዎች በምትኩ ወደ Chrome በመለያ መግባት አለባቸው። ተጠቃሚዎች Chrome የተዘመነ መሆኑን እና Chrome ደህንነት ቅንብር «የይለፍ ቃላት ለውሂብ ደንብ ጥሰት የተጋለጡ ከሆኑ አስጠንቅቅ» የሚለው (ነባሪ ከዚህ ቀደም ካልተለወጠ በቀር) መብራቱን ማረጋገጥ አለባቸው።\n\nይህን ንጥል በመጫን www.google.com/policies/ ላይ በGoogle አገልግሎት ውል እና የግላዊነት መመሪያ ይስማማሉ።"
+   },
+   "extension_name": {
+      "message": "የሚስጥር ቃል ማረጋገጫ ቅጥያ"
+   },
+   "feedback_message": {
+      "message": "ግብረመልስ ላክ"
+   },
+   "feedback_notice": {
+      "message": "በሕጋዊ ምክንያቶች የይዘት ለውጦችን ለመጠየቅ ወደ \u003Ca href=\"https://support.google.com/legal/answer/3110420\">Legal Help page\u003C/a> ይሂዱ። የተወሰነ የመለያ እና የስርዓት መረጃ ለGoogle ሊላክ ይችላል። በእኛ \u003Ca href=\"https://www.google.com/intl/en/policies/privacy/\">የግላዊነት መመሪያ\u003C/a> እና \u003Ca href=\"https://www.google.com/intl/en/policies/terms/\">አገልግሎት ውሎች\u003C/a> መሠረት የእኛን አገልግልቶች ለማሻሻል እና ቴክኒካዊ ችግሮችን መፍትሔ መስጠት እንድንችል እንዲያግዘን እርስዎ ለእኛ የሚሰጡንን መረጃ እንጠቀምበታለን።"
+   },
+   "feedback_thanks": {
+      "message": "ለግብረመልሱ እናመሰግናለን። አሁን ይህን ገጽ መዝጋት ይችላሉ።"
+   },
+   "feedback_tooltip": {
+      "message": "ችግርዎን ያብራሩ ወይም ሃሳቦችዎን ያጋሩ። እባክዎ በግል ማንነትዎን ለይቶ ሊያሳውቅ የሚችል ማናቸውንም መረጃ ወይም የዕውቅና ማረጋገጫ ዝርዝሮችን እንደ የዚህ ግብረ መልስ አካል አያካትቱ።"
+   },
+   "ignore_button": {
+      "message": "ለዚህ ጣቢያ ችላ በል"
+   },
+   "learn_more": {
+      "message": "የበለጠ ለመረዳት"
+   },
+   "popup_advanced_settings_action": {
+      "message": "የላቁ ቅንብሮች"
+   },
+   "popup_default_status_message": {
+      "message": "በቅርቡ ካስገቧቸው ይለፍ ቃላት ውስጥ ማናቸውም በውሂብ ጥሰት ላይ አልተገኙም።"
+   },
+   "popup_ignore_button": {
+      "message": "ችላ በለው"
+   },
+   "popup_ignored_status_message": {
+      "message": "በቅርቡ ካስገቧቸው ይለፍ ቃላት ውስጥ ማናቸውም በውሂብ ጥሰት ላይ አልተገኙም። ይህ ዳግም ለማስጀመር ችላ ለማለት የመረጧቸውን ደህንነታቸው አስጊ የሆኑ የይለፍ ቃላት አያካትትም።"
+   },
+   "popup_learn_more": {
+      "message": "የበለጠ ለመረዳት"
+   },
+   "popup_lookup_count_message": {
+      "message": "ባለፈው ሳምንት የተነተነቱ የይለፍ ቃላት ብዛት፦"
+   },
+   "popup_multiple_accounts_warning_status_message": {
+      "message": "የሚስጥር ቃል ማረጋገጫ ቅጥያው የሚከተሉት \u003Cb>$1 መለያዎች\u003C/b> በውሂብ ጥሰት ምክንያት እነሱን መጠቀም ለደህንነት አስጊ እንደሆኑ አግኝቷል።",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_number_unsafe_accounts": {
+      "message": "$1 ደህንነታቸው አስጊ የሆኑ መለያዎች",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_one_account_warning_status_message": {
+      "message": "የሚስጥር ቃል ማረጋገጫ ቅጥያው የሚከተለው \u003Cb>1 መለያ\u003C/b> በውሂብ ጥሰት ምክንያት እሱን መጠቀም ለደህንነት አስጊ እንደሆነ አግኝቷል።"
+   },
+   "popup_opt_out_anonymous_reporting_text": {
+      "message": "ለዚህ የቅጥያ ጭነት ስም-አልባ ሪፖርት ከማድረግ መርጠው ይውጡ?"
+   },
+   "popup_reset_extension_button": {
+      "message": "የቅጥያ ውሂብን አጽዳ"
+   },
+   "popup_reset_extension_text": {
+      "message": "ሁሉንም የቅጥያ ውሂብ ያጽዱ። ይህ ሁሉንም ስለአስጊ ይለፍ ቃላት እና ከዚህ ቀደም ችላ የተባሉ ጣቢያዎች ያለ የተከማቸ መረጃ ሁሉ ያስወግዳል።"
+   },
+   "popup_send_feedback": {
+      "message": "ግብረመልስ ላክ"
+   },
+   "popup_turndown_link": {
+      "message": "ተጨማሪ መረጃ ያግኙ"
+   },
+   "popup_turndown_message": {
+      "message": "አሁን ያ የይለፍ ቃል ፍተሻ ከ Chrome ጋር የተዋሃደ ሲሆን ይህ ቅጥያ ኦገስት 31 ቀን 2020 ላይ መሥራቱን ያቆማል።"
+   },
+   "popup_warning_action": {
+      "message": "የእርስዎን የይለፍ ቃላት አሁን መለወጥ አለብዎት።"
+   },
+   "reset_text": {
+      "message": "የእርስዎን የይለፍ ቃል አሁን መለወጥ አለብዎት።"
+   },
+   "send_button": {
+      "message": "ላክ"
+   },
+   "turndown_notice": {
+      "message": "አሁን ያ የይለፍ ቃል ፍተሻ ከ Chrome ጋር የተዋሃደ እንደመሆኑ፣ በኦገስት 31፣ 2020 ላይ የይለፍ ቃል ፍተሻ ቅጥያውን እንዲያበቃ እናደርጋለን። ከዚህ ቀን በኋላ፣ የይለፍ ቃል ፍተሻ ቅጥያ ይሰናከላል እንዲሁም የተጠቃሚ ስም ወይም የይለፍ ቃል የውሂብ ደንብን መጣስ አለመጣሱን ከዚህ ጊዜ በኋላ ሪፖርት አያደርግም። ማስጠንቀቂዎችን መቀበልን ለመቀጠል፣ ተጠቃሚዎች በምትኩ ወደ Chrome በመለያ መግባት አለባቸው። ተጠቃሚዎች Chrome የተዘመነ መሆኑን እና Chrome ደህንነት ቅንብር «የይለፍ ቃላት ለውሂብ ደንብ ጥሰት የተጋለጡ ከሆኑ አስጠንቅቅ» የሚለው (ነባሪ ከዚህ ቀደም ካልተለወጠ በቀር) መብራቱን ማረጋገጥ አለባቸው።"
+   },
+   "turndown_subtitle": {
+      "message": "የአገልግሎት ማብቂያ ማስታወቂያ"
+   },
+   "turndown_uninstall_button": {
+      "message": "አሁኑኑ ያራግፉ"
+   },
+   "warning_banner_header": {
+      "message": "የይለፍ ቃልዎን ይቀይሩ"
+   },
+   "warning_text": {
+      "message": "የሚስጥር ቃል ማረጋገጫ ቅጥያው የእርስዎ የ\u003Cb>$1\u003C/b> ይለፍ ቃል ከእንግዲህ በኋላ በውሂብ ደንብ ጥሰት ምክንያት ደህንነቱ አስተማማኝ እንዳልሆነ ደርሶበታል።",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

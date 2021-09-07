@@ -1,0 +1,41 @@
+body {
+	min-width: 230px;
+	margin: 0px;
+	overflow: auto;
+	
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+
+/* List widget */
+
+.list-group {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.list-group > li[data-selected="true"] {
+	color: #fff;
+	background-color: #428bca;
+	border-color: #428bca;
+}
+
+.list-group > li {
+	display: block;
+	cursor: pointer;
+	color: #555;	
+
+	padding: 6px;
+	border-bottom: 1px solid #cacaca;
+	vertical-align: bottom;
+}
+
+.list-group > li > img {
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.list-group > li:last-child {
+	border-bottom: none;
+}

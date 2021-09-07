@@ -1,0 +1,119 @@
+{
+   "cancel_button": {
+      "message": "Zrušit"
+   },
+   "close_button": {
+      "message": "Zavřít"
+   },
+   "extension_description": {
+      "message": "Rozšíření Kontrola hesel pomáhá obnovit zabezpečení účtů, které jsou ohroženy únikem dat."
+   },
+   "extension_detailed_description": {
+      "message": "Když se budete chtít přihlásit pomocí uživatelského jména a hesla, které už není bezpečné kvůli porušení zabezpečení údajů (o němž byl Google informován), zobrazíme vám upozornění. Heslo si resetujte. Pokud stejnou kombinaci uživatelského jména a hesla používáte i v jiných účtech, resetujte heslo i v nich.\n\nRozšíření Kontrola hesel bylo vytvořeno s ohledem na zabezpečení. Nesdílí žádné informace, pomocí kterých by bylo možné identifikovat vaše účty, hesla nebo zařízení. Za účelem vylepšení pokrytí webu zaznamenáváme anonymní údaje o počtu vyhledávání nezabezpečených identifikačních údajů, o odeslaných upozorněních, na základě kterých si uživatelé změnili heslo, a o dotčených doménách. Další informace o rozšíření Kontrola hesel (Password Checkup) naleznete na adrese https://support.google.com/accounts?p=password-checkup.\n\nJelikož je kontrola hesel integrována v Chromu, rozšíření Kontrola hesel přestane 31. srpna 2020 fungovat. Po tomto datu už rozšíření nebude možné použít a nebude hlásit, zda nějaké uživatelské jméno nebo heslo bylo vyzrazeno při porušení zabezpečení údajů. Chcete-li nadále dostávat upozornění, přihlaste se do Chromu. Chrome musí být aktualizován a musí být povoleno bezpečnostní nastavení, že chcete být upozorňováni na hesla vyzrazená při porušení zabezpečení údajů (povoleno ve výchozím nastavení).\n\nInstalací této položky vyjadřujete souhlas se smluvními podmínkami a zásadami ochrany soukromí společnosti Google, které jsou uvedeny na stránkách www.google.com/policies/."
+   },
+   "extension_name": {
+      "message": "Rozšíření Kontrola hesel"
+   },
+   "feedback_message": {
+      "message": "Odeslat zpětnou vazbu"
+   },
+   "feedback_notice": {
+      "message": "Na stránce \u003Ca href=\"https://support.google.com/legal/answer/3110420\">právní nápovědy\u003C/a> požádejte o změnu obsahu z právních důvodů. Některé údaje o účtu a systému mohou být předány společnosti Google. Poskytnuté informace použijeme k odstranění technických problémů a vylepšení svých služeb, a to v souladu se \u003Ca href=\"https://www.google.com/intl/cs/policies/privacy/\">zásadami ochrany soukromí\u003C/a> a \u003Ca href=\"https://www.google.com/intl/cs/policies/terms/\">smluvními podmínkami\u003C/a>."
+   },
+   "feedback_thanks": {
+      "message": "Děkujeme vám za zpětnou vazbu. Teď můžete tuto stránku zavřít."
+   },
+   "feedback_tooltip": {
+      "message": "Popište problém nebo se podělte o svůj pohled Ve zpětné vazbě nezahrnujte žádné údaje umožňující zjištění totožnosti ani přihlašovací údaje."
+   },
+   "ignore_button": {
+      "message": "Na tomto webu ignorovat"
+   },
+   "learn_more": {
+      "message": "Další informace"
+   },
+   "popup_advanced_settings_action": {
+      "message": "Rozšířená nastavení"
+   },
+   "popup_default_status_message": {
+      "message": "Žádné z nedávno zadaných hesel není ohroženo únikem dat."
+   },
+   "popup_ignore_button": {
+      "message": "Ignorovat"
+   },
+   "popup_ignored_status_message": {
+      "message": "Žádné z nedávno zadaných hesel není ohroženo únikem dat. Nejsou zahrnuta nezabezpečená hesla, u kterých jste se rozhodli ignorovat výzvu k resetování."
+   },
+   "popup_learn_more": {
+      "message": "Další informace"
+   },
+   "popup_lookup_count_message": {
+      "message": "Počet hesel analyzovaných za poslední týden:"
+   },
+   "popup_multiple_accounts_warning_status_message": {
+      "message": "Kontrola hesel zjistila, že následující účty (\u003Cb>$1\u003C/b>) obsahují hesla, která už nejsou bezpečná z důvodu úniku dat.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_number_unsafe_accounts": {
+      "message": "Nezabezpečené účty: $1",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   },
+   "popup_one_account_warning_status_message": {
+      "message": "Kontrola hesel zjistila, že následující \u003Cb>1\u003C/b> účet obsahuje heslo, které už není bezpečné z důvodu úniku dat."
+   },
+   "popup_opt_out_anonymous_reporting_text": {
+      "message": "Odhlásit od anonymního odesílání informací o této instalaci rozšíření?"
+   },
+   "popup_reset_extension_button": {
+      "message": "Vymazat data rozšíření"
+   },
+   "popup_reset_extension_text": {
+      "message": "Vymazat všechna data rozšíření. Budou odstraněny všechny informace o nezabezpečených heslech a dříve ignorovaných webech."
+   },
+   "popup_send_feedback": {
+      "message": "Odeslat zpětnou vazbu"
+   },
+   "popup_turndown_link": {
+      "message": "Další informace"
+   },
+   "popup_turndown_message": {
+      "message": "Jelikož je kontrola hesel integrována v Chromu, toto rozšíření přestane 31. srpna 2020 fungovat."
+   },
+   "popup_warning_action": {
+      "message": "Ihned si změňte hesla."
+   },
+   "reset_text": {
+      "message": "Ihned si změňte heslo."
+   },
+   "send_button": {
+      "message": "Odeslat"
+   },
+   "turndown_notice": {
+      "message": "Jelikož je kontrola hesel integrována v Chromu, rozšíření Kontrola hesel přestane 31. srpna 2020 fungovat. Po tomto datu už rozšíření nebude možné použít a nebude hlásit, zda nějaké uživatelské jméno nebo heslo bylo vyzrazeno při porušení zabezpečení údajů. Chcete-li nadále dostávat upozornění, přihlaste se do Chromu. Chrome musí být aktualizován a musí být povoleno bezpečnostní nastavení, že chcete být upozorňováni na hesla vyzrazená při porušení zabezpečení údajů (povoleno ve výchozím nastavení)."
+   },
+   "turndown_subtitle": {
+      "message": "Oznámení o ukončení rozšíření"
+   },
+   "turndown_uninstall_button": {
+      "message": "Odinstalovat"
+   },
+   "warning_banner_header": {
+      "message": "Změňte si heslo"
+   },
+   "warning_text": {
+      "message": "Kontrola hesel zjistila, že vaše heslo na webu \u003Cb>$1\u003C/b> už není bezpečné z důvodu úniku dat.",
+      "placeholders": {
+         "1": {
+            "content": "$1"
+         }
+      }
+   }
+}

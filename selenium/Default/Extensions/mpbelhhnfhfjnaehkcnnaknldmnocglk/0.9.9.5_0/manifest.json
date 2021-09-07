@@ -1,0 +1,38 @@
+{
+   "applications": {
+      "gecko": {
+         "id": "{3b56bcc7-54e5-44a2-9b44-66c3ef58c13e}",
+         "strict_min_version": "57.0a1"
+      }
+   },
+   "background": {
+      "scripts": [ "common/tidy_platform_fake.js", "tidy_background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "skin/disabled.png",
+      "default_popup": "tidy_popup.html",
+      "default_title": "HTML validator"
+   },
+   "content_scripts": [ {
+      "js": [ "tidy_content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Add HTML Validator in Developer Tools",
+   "devtools_page": "tidy_devtools.html",
+   "differential_fingerprint": "1.3e322ecd71a98e7bb89452a376ac49a2b8c0787889d7938ce235451d75366ecb",
+   "homepage_url": "http://www.gueury.com/mozilla",
+   "icons": {
+      "128": "skin/default_icon128.png",
+      "16": "skin/default_icon16.png",
+      "48": "skin/default_icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnjDp8yRY2Y1l89z5J4y6lnN6JXFHS7OhzC+gtw8XYy3al/TyjFtReP+teVdMPr1T2C0q8UQnqa1UXdFx9vMVx8h8NanSvR4MRwYjqm453Yby5gxlP4wqJhfactqIxCCZOdVGUeDq4gP2ZNS1Ei5i/Iwh98yQobyp62k0KsnilpsBKrnWXXUNyoZQqhznq7O/5VlhBnzqj8Fnn+CHJRnyWdMVaQTmxUBkghax0zEz/nUKUh/CdZk1ns89kJRxCMVvHWZmvPn8oMS30vU+/dA1wnyxfG3CVF+fvUI7tIPE8J3HK5B3CLS7o44aPGLGEJqyifZ7f51W+2DcN5YoXM4PSQIDAQAB",
+   "manifest_version": 2,
+   "name": "HTML Validator",
+   "offline_enabled": true,
+   "options_page": "common/tidy_option.html",
+   "permissions": [ "\u003Call_urls>", "storage", "clipboardWrite", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.9.9.5",
+   "web_accessible_resources": [ "*" ]
+}
