@@ -47,17 +47,12 @@ def _main():
         print(price)
         if price != "" and int(price) <= item[1]:
             proceed_checkout(driver)
-        # time.sleep(2)
     driver.quit()
 
 
 def open_chrome():
     options = webdriver.ChromeOptions()
     options.add_argument('user-data-dir=/tmp/chrome_profiles')
-    # options.add_argument('--headless') #headlessで動作させる場合はこの行を有効に
-
-    # driver_path = './chromedriver'  # 必要に応じてパスの書き換え
-    # driver = webdriver.Chrome(driver_path, options=options)
     driver = webdriver.Remote(
         command_executor=os.environ['SELENIUM_URL'],
         desired_capabilities=DesiredCapabilities.CHROME.copy(),
@@ -147,11 +142,9 @@ def input_id(driver):
 
 def input_passwd(driver):
     try:
-        # element = driver.find_elements_by_name(name)
-        driver.find_element_by_xpath("//input[@name='" + REMEMBERME_ELM_NAME +
-                                     "']").click()
-        # element.click()
-        # return driver
+        element = driver.find_element_by_xpath("//input[@name='" +
+                                               REMEMBERME_ELM_NAME + "']")
+        element.click()
     except NoSuchElementException:
         print("couldn't find checkbox")
         pass
