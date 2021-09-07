@@ -3,13 +3,15 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 import os
+import sys
 import time
 
 URL_BASE = "https://www.amazon.co.jp/dp/{asin}"
 PRICE_ELM_ID = "priceblock_ourprice"
 CART_ELM_ID = "add-to-cart-button"
 CHECKOUT_ELM_ID = "hlb-ptc-btn-native"
-ALT_CHECKOUT_ELM_ID = "a-autoid-0-announce"
+CHECKOUT_ALT1_ELM_ID = "a-autoid-0-announce"
+CHECKOUT_ALT2_ELM_ID = "proceedToRetailCheckout"
 EMAIL_ELM_ID = "ap_email"
 PASSWORD_ELM_ID = "ap_password"
 REMEMBERME_ELM_NAME = "rememberMe"
@@ -22,21 +24,30 @@ LOGIN_PASSWORD = 'dawn2196'
 # ご自身の監視したい商品のASINと価格に書き換えてください
 ITEM_LIST = [
     # ["ASINを文字列で入力", 価格を整数で入力]
-    ["B07F76K6FJ", 54978],  # Playstation5
-    # ["B08GGF7M7B", 43978],  # Playstation5 Digital Edition
+    ["B08GGGBKRQ", 55000],  # Playstation5
+    ["B095HKG74J", 64000],
+    ["B091D2HGKP", 64000],
+    ["B091D2959B", 64000],
+    ["B091D2959B", 64000],
+    ["B08GGGCH3Y", 56000],
 ]
 
 
 def _main():
-    print('start scraping')
+    local_time = time.localtime()
+    year = str(local_time.tm_year)
+    month = str(local_time.tm_mon)
+    date = str(local_time.tm_mday)
+    hour = str(local_time.tm_hour)
+    min = str(local_time.tm_min + 1)
+    print(year + '.' + month + '.' + date, hour + ':' + min)
     driver = open_chrome()
     for item in ITEM_LIST:
-        print('fetch price')
         price = check_item(driver, item)
         print(price)
         if price != "" and int(price) <= item[1]:
             proceed_checkout(driver)
-        time.sleep(2)
+        # time.sleep(2)
     driver.quit()
 
 
@@ -66,18 +77,20 @@ def check_item(driver, item):
 
 
 def proceed_checkout(driver):
-    print('checkout')
     add_to_cart(driver)
-    time.sleep(2)
+    # time.sleep(2)
     driver = goto_checkout(driver)
-    time.sleep(2)
+    # time.sleep(2)
     driver = input_id(driver)
-    time.sleep(2)
+    # time.sleep(2)
     driver = input_passwd(driver)
-    time.sleep(2)
+    # time.sleep(2)
     driver = select_address(driver)
-    time.sleep(2)
-    # place_order(driver)
+    # time.sleep(2)
+    ordered = place_order(driver)
+
+    if ordered is True:
+        sys.exit(1)
 
 
 def get_price(driver):
@@ -109,10 +122,16 @@ def goto_checkout(driver):
         element.click()
     except NoSuchElementException:
         try:
-            element = driver.find_element_by_id(ALT_CHECKOUT_ELM_ID)
+            element = driver.find_element_by_id(CHECKOUT_ALT1_ELM_ID)
             element.click()
         except NoSuchElementException:
-            pass
+            try:
+                element = driver.find_element_by_xpath("//input[@name='" +
+                                                       CHECKOUT_ALT2_ELM_ID +
+                                                       "']")
+                element.click()
+            except NoSuchElementException:
+                pass
     return driver
 
 
@@ -160,12 +179,11 @@ def place_order(driver):
     try:
         element = driver.find_element_by_id(ORDER_ELM_ID)
         element.click()
-        return driver
+        return True
     except NoSuchElementException:
         print("couldn't find place order button")
-        pass
+        return False
 
 
 if __name__ == "__main__":
-    print('start')
     _main()
