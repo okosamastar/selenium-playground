@@ -1,1 +1,1 @@
-while python3 src/amazon_selenium_search.py; do :; sleep 15 ; done
+while python3 src/amazon_selenium_search.py; do :; sleep 1 ; done
